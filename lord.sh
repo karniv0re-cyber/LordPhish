@@ -357,7 +357,23 @@ oofic() {
 if [[ $option == 1 ]]; then
 server="Exel"
 start
-    
+
+if [[ $option == 2 ]]; then
+server="OneNote"
+start
+
+if [[ $option == 3 ]]; then
+server="PowerPoint"
+start
+
+if [[ $option == 4 ]]; then
+server="SharePoint"
+start
+
+if [[ $option == 5 ]]; then
+server="Word"
+start
+
 }
 
 catch_cred() {
