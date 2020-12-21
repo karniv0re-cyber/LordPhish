@@ -121,7 +121,7 @@ server="wordpress"
 start
 
 elif [[ $option == 16 ]]; then
-server="microsoft"
+server="Microsoft"
 start
 
 elif [[ $option == 17 ]]; then
@@ -157,7 +157,7 @@ server="shopify"
 start
 
 elif [[ $option == 25 ]]; then
-server="messenger"
+server="Messenger"
 start
 
 elif [[ $option == 26 ]]; then
