@@ -221,7 +221,7 @@ server="apple"
 start
 
 elif [[ $option == 41 ]]; then
-server="Bitcoin"
+server="bitcoin"
 start
 
 elif [[ $option == 42 ]]; then
