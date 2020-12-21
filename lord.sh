@@ -89,7 +89,7 @@ server="spotify"
 start
 
 elif [[ $option == 8 ]]; then
-server="netflix"
+server="Netflix"
 start
 
 elif [[ $option == 9 ]]; then
