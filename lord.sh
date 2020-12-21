@@ -193,11 +193,11 @@ server="stackoverflow"
 start
 
 elif [[ $option == 34 ]]; then
-server="Gmail"
+server="gmail"
 start
 
 elif [[ $option == 35 ]]; then
-server="Tiktok"
+server="tiktok"
 start
 
 elif [[ $option == 36 ]]; then
