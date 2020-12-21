@@ -220,8 +220,15 @@ fi
 }
 
 banner() {
-
 printf "\n"
+printf "      \e[33;1m     __                   ______  __    _      __ \e[0m\n"
+printf "      \e[32;1m    / /   ____  _________/ / __ \/ /_  (_)____/ /_\e[0m\n"
+printf "      \e[32;1m   / /   / __ \/ ___/ __  / /_/ / __ \/ / ___/ __ \\e[0m\n"
+printf "      \e[32;1m  / /___/ /_/ / /  / /_/ / ____/ / / / (__  ) / / /\e[0m\n"
+printf "      \e[33;1m /_____/\____/_/   \__,_/_/   /_/ /_/_/____/_/ /_/\e[0m\n"
+printf "      \e[1;97m    Version 1.0 Beta      \e[0m\n"
+printf "\n"
+printf "   \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Tool Created by 0x0a (Ch33chSec)\e[0m\n"
 printf "\n"
 printf "     \e[101m\e[1;77m:: Disclaimer: Developers assume no liability and are not    ::\e[0m\n"
 printf "     \e[101m\e[1;77m:: responsible for any misuse or damage caused by LordPhish.  ::\e[0m\n"
