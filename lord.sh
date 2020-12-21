@@ -311,13 +311,11 @@ if [[ $option == 1 ]]; then
 server="Google_pc"
 start
     
-if [[ $option == 2 ]]; then
+elif [[ $option == 2 ]]; then
 list_gm
 
 else
-printf "\e[1;92m[\e[0m\e[1;77m!\e[0m\e[1;92m]\e[0m\e[1;96m Invalid option\e[0m\n"
-
-clear
+printf "\e[1;93m [!] Invalid option!\e[0m\n"
 menu
 fi
 }
@@ -333,15 +331,14 @@ if [[ $option == 1 ]]; then
 server="Google_mobile"
 start
     
-if [[ $option == 2 ]]; then
+elif [[ $option == 2 ]]; then
 server="Google_mobile2"
 start
 
 else
-printf "\e[1;92m[\e[0m\e[1;77m!\e[0m\e[1;92m]\e[0m\e[1;96m Invalid option\e[0m\n"
-
-clear
+printf "\e[1;93m [!] Invalid option!\e[0m\n"
 menu
+fi
 }
 
 
