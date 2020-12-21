@@ -192,6 +192,9 @@ elif [[ $option == 33 ]]; then
 server="stackoverflow"
 start
 
+elif [[ $option == 33 ]]; then
+server="stackoverflow"
+start
 
 elif [[ $option == 99 ]]; then
 server="create"
