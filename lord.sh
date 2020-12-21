@@ -87,7 +87,7 @@ server="google"
 list_g
 
 elif [[ $option == 7 ]]; then
-server="spotify"
+server="Spotify"
 start
 
 elif [[ $option == 8 ]]; then
