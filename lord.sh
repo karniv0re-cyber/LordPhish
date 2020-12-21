@@ -319,6 +319,7 @@ printf "\e[1;92m[\e[0m\e[1;77m!\e[0m\e[1;92m]\e[0m\e[1;96m Invalid option\e[0m\n
 sleep 0.9
 clear
 menu
+fi
 }
 
 list_gm() {
