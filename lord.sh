@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
-# Canal no youtube: Ch33ch_Sec
-# Inspirado no shellphish do thelinuxchoice
+# Youtube Channel: Ch33ch_Sec
+# Inspired by the linux choice shellphish
 # Lordphish the best phishing tool!!!!
 # Telegram: Ch33chOficial
+# Pages by: Tahmid Rayat
 
 trap 'printf "\n";stop;exit 1' 2
 
