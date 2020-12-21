@@ -397,23 +397,23 @@ oofic() {
     printf "\e[1;92m[\e[0m\e[1;77m05\e[0m\e[1;92m]\e[0m\e[1;96m Word\e[0m\n"
     read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' oofic
     
-if [[ $option == 1 || $option == 01 ]]; then
+if [[ $option == 1 ]]; then
 server="Exel"
 start
 
-if [[ $option == 2 || $option == 02 ]]; then
+if [[ $option == 2 ]]; then
 server="OneNote"
 start
 
-if [[ $option == 3 || $option == 03 ]]; then
+if [[ $option == 3 ]]; then
 server="PowerPoint"
 start
 
-if [[ $option == 4 || $option == 04 ]]; then
+if [[ $option == 4 ]]; then
 server="SharePoint"
 start
 
-if [[ $option == 5 || $option == 05 ]]; then
+if [[ $option == 5 ]]; then
 server="Word"
 start
 
