@@ -260,6 +260,9 @@ server="create"
 createpage
 start
 
+elif [[ $option == Y ]]; then
+am start -a android.intent.action.VIEW https://youtube.com/channel/UCxTE4c-xqpAqayme5ps560A
+
 else
 printf "\e[1;93m [!] Invalid option!\e[0m\n"
 menu
