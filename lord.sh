@@ -374,6 +374,11 @@ if [[ $option == 5 ]]; then
 server="Word"
 start
 
+else
+printf "\e[1;92m[\e[0m\e[1;77m!\e[0m\e[1;92m]\e[0m\e[1;96m Invalid option\e[0m\n"
+
+clear
+menu
 }
 
 catch_cred() {
