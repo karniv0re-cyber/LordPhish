@@ -261,9 +261,11 @@ createpage
 start
 
 elif [[ $option == Y ]]; then
+banner
 am start -a android.intent.action.VIEW https://youtube.com/channel/UCxTE4c-xqpAqayme5ps560A
 
 elif [[ $option == T ]]; then 
+banner
 am start -a android.intent.action.VIEW https://t.me/Ch33chSec
 
 else
