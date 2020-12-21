@@ -313,6 +313,13 @@ start
     
 if [[ $option == 2 ]]; then
 list_gm
+
+else
+
+printf "\e[1;92m[\e[0m\e[1;77m!\e[0m\e[1;92m]\e[0m\e[1;96m Invalid option\e[0m\n"
+
+clear
+menu
     
 }
 
@@ -332,6 +339,10 @@ server="Google_mobile2"
 start
 
 else
+printf "\e[1;92m[\e[0m\e[1;77m!\e[0m\e[1;92m]\e[0m\e[1;96m Invalid option\e[0m\n"
+
+clear
+menu
 
 }
 
