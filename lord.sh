@@ -256,7 +256,7 @@ elif [[ $option == 48 ]]; then
 server="xvideos"
 start
 
-elif [[ $option == 47 ]]; then
+elif [[ $option == 49 ]]; then
 server="Codm"
 start
 
