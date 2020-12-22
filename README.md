@@ -12,7 +12,7 @@ The most complete phishing tool
 ### <<< If you copy , Then Give me The Credits >>>
 
 ## Features :
-### [+] 47 fake screen options!
+### [+] 49 fake screen options!
 #### [+] Latest Login Pages !
 #### [+] Mask URL Added !
 #### [+] Easy for Beginners !
