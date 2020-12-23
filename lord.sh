@@ -91,8 +91,7 @@ server="Google"
 Google
 
 elif [[ $menu_option == 7 || $menu_option == 07 ]]; then
-server="Spotfy"
-mask='steam-500-usd-gift-card-free'
+server="Spotify"
 start
 
 elif [[ $menu_option == 8 || $menu_option == 08 ]]; then
@@ -110,6 +109,7 @@ start
 
 elif [[ $menu_option == 11 ]]; then
 server="steam"
+mask='steam-500-usd-gift-card-free'
 start
 
 elif [[ $menu_option == 12 ]]; then
