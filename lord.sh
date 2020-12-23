@@ -143,42 +143,42 @@ server="shopping"
 start
 
 elif [[ $menu_option == 19 ]]; then
-leageoflegends
+lol
 
 elif [[ $menu_option == 20 ]]; then
-server="cryptocurrency"
+server="pinterest"
 start
 
 elif [[ $menu_option == 21 ]]; then
-server="verizon"
+server="cryptocurrency"
 start
 
 elif [[ $menu_option == 22 ]]; then
-server="dropbox"
+server="verzion"
 start
 
 elif [[ $menu_option == 23 ]]; then
-server="adobe"
+server="dropbox"
 start
 
 elif [[ $menu_option == 24 ]]; then
-server="shopify"
+server="adobe"
 start
 
 elif [[ $menu_option == 25 ]]; then
-server="Messenger"
+server="Shopfy"
 start
 
 elif [[ $menu_option == 26 ]]; then
-server="gitlab"
+server="Messenger"
 start
 
 elif [[ $menu_option == 27 ]]; then
-server="twitch"
+server="gitlab"
 start
 
 elif [[ $menu_option == 28 ]]; then
-server="myspace"
+server="twitch"
 start
 
 elif [[ $menu_option == 29 ]]; then
