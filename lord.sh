@@ -74,7 +74,7 @@ start
 
 elif [[ $option == 2 ]]; then
 server="facebook"
-list_fb
+facebook
 
 elif [[ $option == 3 ]]; then
 server="snapchat"
