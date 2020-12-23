@@ -240,7 +240,7 @@ start
 
 elif [[ $menu_option == 43 ]]; then
 server="o365"
-oofic
+microsoft_ofice
 
 elif [[ $menu_option == 44 ]]; then
 server="Playstation"
@@ -368,13 +368,13 @@ Google() {
     banner
     printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;96m Google to pc\e[0m\n"
     printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;96m Google mobile\e[0m\n"
-    read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' 
+    read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' google_menu
     
-if [[ $option == 1 ]]; then
+if [[ $google_menu == 1 ]]; then
 server="Google_pc"
 start
     
-elif [[ $option == 2 ]]; then
+elif [[ $google_menu == 2 ]]; then
 list_gm
 
 else
@@ -449,7 +449,7 @@ printf '</html>\n' >> sites/create/login.html
 
 }
 
-oofic() {
+microsoft_ofice() {
     clear
     banner
     printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;96m Exel\e[0m\n"
@@ -457,25 +457,25 @@ oofic() {
     printf "\e[1;92m[\e[0m\e[1;77m03\e[0m\e[1;92m]\e[0m\e[1;96m PowerPoint\e[0m\n"
     printf "\e[1;92m[\e[0m\e[1;77m04\e[0m\e[1;92m]\e[0m\e[1;96m SharePoint\e[0m\n"
     printf "\e[1;92m[\e[0m\e[1;77m05\e[0m\e[1;92m]\e[0m\e[1;96m Word\e[0m\n"
-    read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' oofic
+    read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' ofice_menu
     
-if [[ $option == 1 ]]; then
+if [[ $ofice_menu == 1 ]]; then
 server="Exel"
 start
 
-elif [[ $option == 2 ]]; then
+elif [[ $ofice_menu == 2 ]]; then
 server="OneNote"
 start
 
-elif [[ $option == 3 ]]; then
+elif [[ $ofice_menu == 3 ]]; then
 server="PowerPoint"
 start
 
-elif [[ $option == 4 ]]; then
+elif [[ $ofice_menu == 4 ]]; then
 server="SharePoint"
 start
 
-elif [[ $option == 5 ]]; then
+elif [[ $ofice_menu == 5 ]]; then
 server="Word"
 start
 
