@@ -89,8 +89,7 @@ start
 
 elif [[ $menu_option == 6 || $menu_option == 06 ]]; then
 website="Google"
-mask='get-500-usd-free-to-your-acount'
-start
+Google
 
 elif [[ $menu_option == 7 || $menu_option == 07 ]]; then
 website="Spotfy"
@@ -364,7 +363,7 @@ fi
 }
 
 
-list_g() {
+Google() {
     clear
     banner
     printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;96m Google to pc\e[0m\n"
