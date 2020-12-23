@@ -5,7 +5,7 @@ The most complete phishing tool
 <img src="https://raw.githubusercontent.com/Ch33chOficial/LordPhish/main/img/PSX_20201221_060309.jpg">
 <img src="https://img.shields.io/badge/Author-Ch33chOficial-blue">
 <img src="https://img.shields.io/badge/County-Brasil-red">
-<img src="https://raw.githubusercontent.com/Ch33chOficial/LordPhish/main/img/Screenshot_20201221-051604_Termux.jpg?token=ARV2LBWL5DYN24L7AS6XAE274BNFY">
+<img src="https://raw.githubusercontent.com/Ch33chOficial/LordPhish/main/img/20201223_014737.jpg" align="center">
 
 
 
