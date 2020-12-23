@@ -325,6 +325,21 @@ fi
 }
 
 banner() {
+printf "\e[1;92m[\e[0m\e[                    ] \e[1;93m0%[\e[0m\e\n"
+clear
+sleep 0.9
+printf "\e[1;92m[\e[0m\e[\e[1;96m=====\e[0m\e]\e[1;93m***************\e[0m\e]\e[1;93m25%\e[0m\e\n"
+clear
+sleep 0.9
+printf "\e[1;92m[\e[0m\e[\e[1;96m===========\e[0m\e]\e[1;93m*********\e[0m\e]\e[1;93m50%\e[0m\e\n"
+clear 
+sleep 0.9
+printf "\e[1;92m[\e[0m\e[\e[1;96m===============\e[0m\e]\e[1;93m*****\e[0m\e]\e[1;93m75%\e[0m\e\n"
+clear 
+sleep 1.7
+printf "\e[1;92m[\e[0m\e[\e[1;96m====================================\e[0m\e]\e[1;93m100%\e[0m\e\n"
+clear
+sleep 2.7
 printf "\n"
 printf "      \e[33;1m     __                   ______  __    _      __ \e[0m\n"
 printf "      \e[32;1m    / /   ____  _________/ / __ \/ /_  (_)____/ /_\e[0m\n"
@@ -344,7 +359,6 @@ printf "\n"
 }
 
 facebook(){
-clear
 banner
 printf " \n"
 printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[1;93m Traditional Login Page\e[0m\n"
@@ -380,7 +394,6 @@ fi
 }
 
 lol(){
-clear
 banner
 printf " \n"
 printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[1;93m Traditional Login Page\e[0m\n"
@@ -411,7 +424,6 @@ fi
 }
 
 Google() {
-    clear
     banner
     printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;96m Google to pc\e[0m\n"
     printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;96m Google mobile\e[0m\n"
@@ -431,7 +443,6 @@ fi
 }
 
 list_gm() {
-clear
     banner
     
     printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;96m Google mobile\e[0m\n"
@@ -497,7 +508,6 @@ printf '</html>\n' >> sites/create/login.html
 }
 
 microsoft_ofice() {
-    clear
     banner
     printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;96m Exel\e[0m\n"
     printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;96m OneNote\e[0m\n"
