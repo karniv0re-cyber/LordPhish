@@ -18,7 +18,21 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "I require curl but it's not inst
 }
 
 menu() {
+printf "\e[1;92m[\e[0m\e[                    ] \e[1;93m0%[\e[0m\e\n"
 clear
+sleep 0.9
+printf "\e[1;92m[\e[0m\e[\e[1;96m=====\e[0m\e]\e[1;93m***************\e[0m\e]\e[1;93m25%\e[0m\e\n"
+clear
+sleep 0.9
+printf "\e[1;92m[\e[0m\e[\e[1;96m===========\e[0m\e]\e[1;93m*********\e[0m\e]\e[1;93m50%\e[0m\e\n"
+clear 
+sleep 0.9
+printf "\e[1;92m[\e[0m\e[\e[1;96m===============\e[0m\e]\e[1;93m*****\e[0m\e]\e[1;93m75%\e[0m\e\n"
+clear 
+sleep 1.7
+printf "\e[1;92m[\e[0m\e[\e[1;96m====================================\e[0m\e]\e[1;93m100%\e[0m\e\n"
+clear
+sleep 2.7
 printf "\n"
 printf "      \e[33;1m     __                   ______  __    _      __ \e[0m\n"
 printf "      \e[32;1m    / /   ____  _________/ / __ \/ /_  (_)____/ /_\e[0m\n"
