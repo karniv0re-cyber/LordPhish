@@ -360,7 +360,7 @@ menu
 fi
 }
 
-lfbdesk() {
+lfbmob() {
  clear
  banner
  printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;96m Facebook Page\e[0m\n"
