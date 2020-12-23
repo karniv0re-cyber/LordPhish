@@ -19,7 +19,6 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "I require curl but it's not inst
 
 menu() {
 clear
-sleep 2.7
 printf "\n"
 printf "      \e[33;1m     __                   ______  __    _      __ \e[0m\n"
 printf "      \e[32;1m    / /   ____  _________/ / __ \/ /_  (_)____/ /_\e[0m\n"
@@ -313,7 +312,6 @@ fi
 
 banner() {
 clear
-sleep 2.7
 printf "\n"
 printf "      \e[33;1m     __                   ______  __    _      __ \e[0m\n"
 printf "      \e[32;1m    / /   ____  _________/ / __ \/ /_  (_)____/ /_\e[0m\n"
