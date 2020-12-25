@@ -11,7 +11,7 @@ The most complete phishing tool
 ### <<< If you copy , Then Give me The Credits >>>
 
 ## Features :
-### [+] 49 fake screen options!
+### [+] 50 fake screen options!
 #### [+] Latest Login Pages !
 #### [+] Mask URL Added !
 #### [+] Easy for Beginners !
