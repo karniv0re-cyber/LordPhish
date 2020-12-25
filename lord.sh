@@ -4,6 +4,8 @@
 # Lordphish the best phishing tool!!!!
 # Telegram: Ch33chOficial
 # Pages by: Tahmid Rayat
+# Banner by: Predator
+
 R='\e[1;31m'
 G='\e[1;32m'
 Y='\e[1;33m'
