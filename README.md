@@ -18,7 +18,7 @@ The most complete phishing tool
 
 ## Thanks :
 #### > TheLinuxChoice (https://github.com/thelinuxchoice)
-### > Me (https://github.com/Ch33chOficial)
+### > Gr3n0xX/C33chSec (https://github.com/Ch33chOficial)
 ### > Tahmid Rayat (https://github.com/htr-tech)
 ### > Th3_Pr3d4t0r (https://github.com/tony23x)
 ### > Zeus (https://github.com/Zeushx)
