@@ -353,25 +353,25 @@ fi
 banner() {
 clear
 printf "\n"
-echo -e $R"      ╔═══════════╗"
-echo -e "$R    ╔═╝$W███████████$R╚═╗"
-echo -e "$R   ╔╝$W███████████████$R╚╗"
-echo -e "$R   ║$W█████\033[1;32mCh33chSec\033[00m\033[1;37m████$R║"
-echo -e "$R   ║$W█████████████████$R║    \e[1;36m•\e[1;31m◈\e[1;36m•▬ ▬ ▬ ▬ ▬ ▬ ▬•\e[1;31m◈\e[1;36m•▬ ▬ ▬ ▬ ▬ ▬ ▬•\e[1;31m◈\e[1;36m•. \e[00m\e[1;31m"
-echo -e "$R   ║$W█████████████████$R║            \e[30;48;5;196m\e[1;32m\e[1;36m Lord\e[0m \e[30;48;5;39m\e[1;31m Phish\e[0m\e[1;31m"
-echo -e "$R   ║$W█$R╔$W█████████████$R╗$W█$R║    \e[1;36m•\e[1;31m◈\e[1;36m•▬ ▬ ▬ ▬ ▬ ▬ ▬•\e[1;31m◈\e[1;36m•▬ ▬ ▬ ▬ ▬ ▬ ▬•\e[1;31m◈\e[1;36m•. \e[00m\e[1;31m"
-echo -e "$R   ╚╦╝$W███$Gr▒▒\e[0m$W███$Gr▒▒\e[0m$W███$R╚╦╝    "
-echo -e "$R   ╔╝$W██$Gr▒▒▒▒\e[0m$W███$Gr▒▒▒▒\e[0m$W██$R╚╗     "
-echo -e "$R   ║$W██$Gr▒▒▒▒▒\e[0m$W███$Gr▒▒▒▒▒\e[0m$W██$R|      "
-echo -e "$R   ║$W██$Gr▒▒▒▒\e[0m$W█████$Gr▒▒▒▒\e[0m$W██$R║                               "
-echo -e "$R   ╚╗$W███████████████$R╔╝"
-echo -e "$R  ╔═╬══╦╝$W██$Gr▒\e[0m$W█$Gr▒\e[0m$W██$R╚╦══╝ $G.$g▒$G.."
-echo -e "$R  ║$W█$R║══║$W█████████$R║ $G...$g▒$G."
-echo -e "$R  ║$W█$R║══║$W█$R║$W██$R║$W██$R║$W█$R║　$G.$g▒$G.."
-echo -e "$R  ║$W█$R║══╚═╩══╩╦═╩═╩═╦╗$g▒$G."
-echo -e "$R ╔╝$W█$R╚══╦═╦══╦╩═╦═╦═╩╝"
-echo -e "$R╔╝$W█████$R║$W█$R║$W██$R║$W██$R║$W█$R║"
-echo -e "$R║$W██████$R║$W█████████$R║\033[00m"
+echo -e "$blue
+           . .IIIII             .II
+  IIIIIII. I  II  .    II..IIIIIIIIIIIIIIIIIIII
+ .  .IIIIII  II          III$cyan  Ch33ch$blue IIIIIIIIII.
+    .IIIII.III I      IIIIIIIII$cyan Sec$blue IIIIIIIII  I
+   .IIIIII$cyan Hacking$blue II  .IIII$cyan LordPhish$blue III. III
+    IIIIIII$cyan  From$blue   ' IIIII I IIIIIIIIIIII III I
+    .II$cyan     Linux OS$blue   IIIIIIIIIIII  IIIIIIIIII
+       I.           .IIIIIIIIIIII   I   II  I
+         .IIII        IIIIIIIIIIII     .       I
+          IIIII.          IIIIII           . I.
+         IIIIIIIII         IIIII             ..I  II .
+          IIIIIII          IIII..             IIQII
+            IIII           III. I            IIIEIII
+            III             I                I  IPI
+             II     $cyan  [-]$magenta Hacking$cyan [-]$blue        D   .
+             I          $magenta The World$reset
+             \n"
+echo
 echo
 printf "      \e[1;97m    Version 1.2 Beta      \e[0m\n"
 printf "\n"
