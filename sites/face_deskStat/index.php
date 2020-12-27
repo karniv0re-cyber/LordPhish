@@ -70,7 +70,7 @@
     </div>
         <div class="container">
             <div class="row justify-content-md-center m-2">
-                <img src="assets/img/image.svg" alt="facebook" width="112px" height="40px">
+                <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="facebook" width="112px" height="40px">
             </div>
             <div class="row justify-content-md-center">
                 <div class="col-md-4">
