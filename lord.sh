@@ -383,7 +383,7 @@ echo -e "$blue
              \n"
 echo
 echo
-printf "      \e[1;97m    Version 1.4 Beta      \e[0m\n"
+printf "      \e[1;97m    Version 1.5 Beta      \e[0m\n"
 printf "\n"
 printf "   \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Tool Created by Gr3n0xX (Ch33chSec)\e[0m\n"
 printf "\n"
