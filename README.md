@@ -6,6 +6,7 @@ The most complete phishing tool
 <img src="https://img.shields.io/badge/Author-Ch33chOficial-blue">
 <img src="https://img.shields.io/badge/County-Brasil-red">
 <img src="https://img.shields.io/badge/flowers-50-green">
+<img src="https://img.shields.io/badge/Stars-49-green">
 
 
 
