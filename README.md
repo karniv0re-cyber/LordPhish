@@ -5,8 +5,8 @@ The most complete phishing tool
 <img src="https://raw.githubusercontent.com/Ch33chOficial/LordPhish/main/img/PSX_20201221_060309.jpg">
 <img src="https://img.shields.io/badge/Author-Ch33chOficial-blue">
 <img src="https://img.shields.io/badge/County-Brasil-red">
-<img src="https://img.shields.io/badge/flowers-50-green">
-<img src="https://img.shields.io/badge/Stars-50-green">
+<img src="https://img.shields.io/badge/flowers-38-green">
+<img src="https://img.shields.io/badge/Stars-31-green">
 
 
 
