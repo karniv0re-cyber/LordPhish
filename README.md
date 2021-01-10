@@ -1,5 +1,5 @@
-# LordPhish
-The most complete phishing tool
+<h2>Hi, I'm Gr3n0xX! <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"></h2>
+And I'm create the most complete phishing tool
 
 <p>
 <img src="https://raw.githubusercontent.com/Ch33chOficial/LordPhish/main/img/PSX_20201221_060309.jpg">
@@ -28,7 +28,6 @@ bash lord.sh
 ### Screenshot:
 <p align="center"><img src="https://raw.githubusercontent.com/Ch33chOficial/LordPhish/main/img/20210109_233907.jpg"><img src="https://raw.githubusercontent.com/Ch33chOficial/LordPhish/main/img/20210109_233923.jpg">
 
-<h2>Hi, I'm Gr3n0xX! <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"></h2>
 
 
 
