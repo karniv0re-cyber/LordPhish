@@ -5,7 +5,7 @@ And I'm create the most complete phishing tool
 <img src="https://raw.githubusercontent.com/Ch33chOficial/LordPhish/main/img/PSX_20201221_060309.jpg">
 <img src="https://img.shields.io/badge/Author-Ch33chOficial-blue">
 <img src="https://img.shields.io/badge/County-Brasil-red">
-<img src="https://img.shields.io/badge/flowers-44-green">
+<img src="https://img.shields.io/badge/flowers-45-green">
 <img src="https://img.shields.io/badge/Stars-36-green">
 <img src="https://img.shields.io/badge/Forks-5-green">
 <a href="#"><img title="Open Source" src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4-green?style=for-the-badge"></a>
