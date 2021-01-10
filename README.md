@@ -37,7 +37,7 @@ bash lord.sh
 <a href="https://www.instagram.com/__empty254__/">
   <img align="left" alt="Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />
 </a>
-<a href="https://github.com/evildevill">
+<a href="https://github.com/Ch33chOficial">
   <img align="left" alt="GitHub" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.5.0/icons/github.svg" />
 </a>
 <a href="https://wa.me/+923137119351">
@@ -99,9 +99,7 @@ bash lord.sh
 
 
 
-```
-Hi 🙋. I'm 17 years old Self-taught developer, Lambda maker, Graphics Designer from Brasil.
-```
+
 
 
 ### <<< If you copy , Then Give me The Credits >>>
