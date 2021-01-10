@@ -45,8 +45,8 @@ bash lord.sh
 </a>
 <br/>
 <br/>
-### Hi 🙋‍♂️,
-### I'm 17 years old Self-taught developer, technical support engineer , Graphics Designer from Brasil.
+Hi 🙋
+ I'm 17 years old Self-taught developer, technical support engineer , Graphics Designer from Brasil.
 
 <br/>
 
