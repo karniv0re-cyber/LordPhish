@@ -41,7 +41,7 @@ bash lord.sh
   <img align="left" alt="GitHub" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.5.0/icons/github.svg" />
 </a>
 <a href="https://t.me/Ch33chOficial">
-  <img align="left" alt="Telegram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.5.0/icons/Telegram.svg" />
+  <img align="left" alt="Telegram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.5.0/icons/telegram.svg" />
 </a>
 <br/>
 <br/>
