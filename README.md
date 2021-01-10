@@ -28,6 +28,24 @@ bash lord.sh
 ### Screenshot:
 <p align="center"><img src="https://raw.githubusercontent.com/Ch33chOficial/LordPhish/main/img/20210109_233907.jpg"><img src="https://raw.githubusercontent.com/Ch33chOficial/LordPhish/main/img/20210109_233923.jpg">
 
+<h2>Hi, I'm Gr3n0xX! <img src="https://media.giphy.com/media/12oufCB0MyZ1Go/giphy.gif" width="50"></h2>
+<img align='right' src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="230">
+<br/>
+<a href="https://twitter.com">
+  <img align="left" alt="Hackerwasii| Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />
+</a>
+<a href="https://www.instagram.com/__empty254__/">
+  <img align="left" alt="Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />
+</a>
+<a href="https://github.com/evildevill">
+  <img align="left" alt="GitHub" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.5.0/icons/github.svg" />
+</a>
+<a href="https://wa.me/+923137119351">
+  <img align="left" alt="whatsapp" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@3.5.0/icons/whatsapp.svg" />
+</a>
+<br/>
+<br/>
+
 ### <<< If you copy , Then Give me The Credits >>>
 
 ## Features :
