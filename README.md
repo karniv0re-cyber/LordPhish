@@ -33,59 +33,6 @@ bash lord.sh
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### <<< If you copy , Then Give me The Credits >>>
 
 ## Features :
