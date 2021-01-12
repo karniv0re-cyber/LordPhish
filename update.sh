@@ -30,6 +30,6 @@ echo -e "$red [ $yellow + $red] $green LordPhish was successfully updated. $rese
 sleep 3.7
 echo ""
 cd $HOME
-cd Gr3n0k
+cd LordPhish
 clear
 echo -e "$red [ $yellow+ $red] $green Going out!"
