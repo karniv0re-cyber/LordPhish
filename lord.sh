@@ -33,7 +33,19 @@ Gren='\033[32m'
 Gris='\033[90m'
 
 trap 'printf "\n";stop;exit 1' 2
+trap user_interrupt SIGINT
+trap user_interrupt SIGTSTP
 
+user_interrupt(){
+        printf "\e[0m\n"
+        printf "\e[0m\e[1;36m\t CTRL + C Pressed !!\n"
+        sleep 2
+        printf "\e[0m\n"
+        printf " \e[0m\e[1;42m Thanks for Using This Tool !!\e[0m  \e[1;44>"
+        printf " \e[1;92m[\e[0m\e[1;77m+\e[0m\e[1;92m]\e[0m\e[1;96m Visit github.com/Ch33chOficial \e[0m"
+        printf "\e[0m\n"
+        exit 1
+}              
 
 dependencies() {
 
