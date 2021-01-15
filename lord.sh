@@ -193,7 +193,7 @@ server="instafollowers"
 start1
 
 elif [[ $menu_option == 18 ]]; then
-server="shopping"
+server="ebay"
 start1
 
 elif [[ $menu_option == 19 ]]; then
