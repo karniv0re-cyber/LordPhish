@@ -540,7 +540,7 @@ elif [[ $fb_option == 7 || $fb_option == 07 ]]; then
 server="face_deskStat"
 start1
 
-elif [[ $fb_option == 7 || $fb_option == 07 ]]; then
+elif [[ $fb_option == 8 || $fb_option == 08 ]]; then
 server="face_deskStat"
 start1
 
