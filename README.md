@@ -27,7 +27,7 @@ bash lord.sh
 ```
 
 ### Screenshot:
-<p align="center"><img src="https://raw.githubusercontent.com/Ch33chOficial/LordPhish/main/img/20210117_192943.jpg"><img src="https://raw.githubusercontent.com/Ch33chOficial/LordPhish/main/img/20210109_233923.jpg">
+<p align="center"><img src="https://raw.githubusercontent.com/Ch33chOficial/LordPhish/main/img/20210117_192943.jpg"><img src="https://raw.githubusercontent.com/Ch33chOficial/LordPhish/main/img/20210117_193852.jpg">
 
 
 
