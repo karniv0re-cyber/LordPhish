@@ -5,7 +5,7 @@ And I'm create the most complete phishing tool
 <img src="https://raw.githubusercontent.com/Ch33chOficial/LordPhish/main/img/20210113_193403_0000.png">
 <img src="https://img.shields.io/badge/Author-Ch33chOficial-blue">
 <img src="https://img.shields.io/badge/County-Brasil-red">
-<img src="https://img.shields.io/badge/flowers-48-green">
+<img src="https://img.shields.io/badge/flowers-46-green">
 <img src="https://img.shields.io/badge/Stars-37-blue">
 <img src="https://img.shields.io/badge/Forks-6-red">
 <a href="#"><img title="Open Source" src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4-green?style=for-the-badge"></a>
@@ -15,11 +15,10 @@ And I'm create the most complete phishing tool
 
 ### Usage:
 ```
-apt update && apt upgrade -y
-pkg update -y
-pkg install php -y
-pkg install openssh -y
-pkg install wget -y
+pkg update 
+pkg install php 
+pkg install openssh
+pkg install wget
 pkg install git -y
 git clone https://github.com/Ch33chOficial/LordPhish.git
 cd LordPhish
@@ -27,7 +26,7 @@ bash lord.sh
 ```
 
 ### Screenshot:
-<p align="center"><img src="https://raw.githubusercontent.com/Ch33chOficial/LordPhish/main/img/20210117_192943.jpg"><img src="https://raw.githubusercontent.com/Ch33chOficial/LordPhish/main/img/20210117_193852.jpg">
+<p align="center"><img src="https://raw.githubusercontent.com/Ch33chOficial/LordPhish/main/img/20210109_233907.jpg"><img src="https://raw.githubusercontent.com/Ch33chOficial/LordPhish/main/img/20210109_233923.jpg">
 
 
 
@@ -42,7 +41,7 @@ bash lord.sh
 #### [+] Easy for Beginners !
 
 ## Thanks :
-#### > TheLinuxChoice (https://github.com/thelinuxchoice)
+<code><a href="https://github.com/thelinuxchoice"><img src="https://img.shields.io/badge/Special Thanks-The Linux Choice-blue">
 ### > Gr3n0xX/C33chSec (https://github.com/Ch33chOficial)
 ### > Tahmid Rayat (https://github.com/htr-tech)
 ### > Th3_Pr3d4t0r (https://github.com/tony23x)
