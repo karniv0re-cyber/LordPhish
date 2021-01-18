@@ -42,7 +42,7 @@ bash lord.sh
 
 ## Thanks :
 <code><a href="https://github.com/thelinuxchoice"><img src="https://img.shields.io/badge/Special Thanks-The Linux Choice-blue"></code></a>
-<code><a href="https://github.com/Ch33chOficial"><img src="https://img.shields.io/badge/Thanks-Gr3n0xX/Ch33chOficial-blue"></code></a>
+<code><a href="https://github.com/Ch33chOficial"><img src="https://img.shields.io/badge/Thanks For Me-Gr3n0xX/Ch33chOficial-blue"></code></a>
 ### > Tahmid Rayat (https://github.com/htr-tech)
 ### > Th3_Pr3d4t0r (https://github.com/tony23x)
 ### > Zeus (https://github.com/Zeushx)
