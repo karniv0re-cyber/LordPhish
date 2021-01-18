@@ -43,6 +43,6 @@ bash lord.sh
 ## Thanks :
 <code><a href="https://github.com/thelinuxchoice"><img src="https://img.shields.io/badge/Special Thanks-The Linux Choice-blue"></code></a>
 <code><a href="https://github.com/Ch33chOficial"><img src="https://img.shields.io/badge/Thanks For Me-Gr3n0xX/Ch33chOficial-blue"></code></a>
-<code><a href="https://github.com/htr-tech"><img src="https://img.shields.io/badge/Thanks for pages-htr-tech-blue"></code></a>
+<code><a href="https://github.com/htr-tech"><img src="https://img.shields.io/badge/Thanks for pages-htr_tech-blue"></code></a>
 <code><a href="https://github.com/tony23x"><img src="https://img.shields.io/badge/Thanks For Banners-Th3_Pr3d4t0r-blue"></code></a>
 ### > Zeus (https://github.com/Zeushx)
