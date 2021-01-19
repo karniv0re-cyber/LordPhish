@@ -5,7 +5,7 @@ And I'm create the most complete phishing tool
 <img src="https://raw.githubusercontent.com/Ch33chOficial/LordPhish/main/img/20210113_193403_0000.png">
 <img src="https://img.shields.io/badge/Author-Ch33chOficial-blue">
 <img src="https://img.shields.io/badge/County-Brasil-red">
-<img src="https://img.shields.io/badge/flowers-46-green">
+<img src="https://img.shields.io/badge/flowers-49-green">
 <img src="https://img.shields.io/badge/Stars-37-blue">
 <img src="https://img.shields.io/badge/Forks-6-red">
 <a href="#"><img title="Open Source" src="https://img.shields.io/badge/Open%20Source-%E2%9D%A4-green?style=for-the-badge"></a>
@@ -15,17 +15,19 @@ And I'm create the most complete phishing tool
 
 ### Usage:
 ```
-pkg update 
-pkg install php 
-pkg install openssh
-pkg install wget
+apt update && apt upgrade -y
+pkg update -y
+pkg install php -y
+pkg install openssh -y
+pkg install wget -y
 pkg install git -y
 git clone https://github.com/Ch33chOficial/LordPhish.git
 cd LordPhish
 bash lord.sh
 ```
 
-
+### Screenshot:
+<p align="center"><img src="https://raw.githubusercontent.com/Ch33chOficial/LordPhish/main/img/20210117_192943.jpg"><img src="https://raw.githubusercontent.com/Ch33chOficial/LordPhish/main/img/20210117_193852.jpg">
 
 
 
@@ -40,8 +42,8 @@ bash lord.sh
 #### [+] Easy for Beginners !
 
 ## Thanks :
-<code><a href="https://github.com/thelinuxchoice"><img src="https://img.shields.io/badge/Special Thanks-The Linux Choice-blue"></code></a>
-<code><a href="https://github.com/Ch33chOficial"><img src="https://img.shields.io/badge/Thanks For Me-Gr3n0xX/Ch33chOficial-blue"></code></a>
-<code><a href="https://github.com/htr-tech"><img src="https://img.shields.io/badge/Thanks for pages-htr_tech-blue"></code></a>
-<code><a href="https://github.com/tony23x"><img src="https://img.shields.io/badge/Thanks For Banners-Th3_Pr3d4t0r-blue"></code></a>
-<code><a href="https://github.com/Zeushx"><img src="https://img.shields.io/badge/Thanks For Help Me-Zeus-blue"></code></a>
+#### > TheLinuxChoice (https://github.com/thelinuxchoice)
+### > Gr3n0xX/C33chSec (https://github.com/Ch33chOficial)
+### > Tahmid Rayat (https://github.com/htr-tech)
+### > Th3_Pr3d4t0r (https://github.com/tony23x)
+### > Zeus (https://github.com/Zeushx)
