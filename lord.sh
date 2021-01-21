@@ -4,27 +4,27 @@
 # Lordphish the best phishing tool!!!!
 # Telegram: Ch33chOficial
 # Pages by: Tahmid Rayat
-# MIT License
+# MIT license
 
 # Copyright (c) 2021 Gr3n0xX
 
 # Permission is granted, free of charge, to anyone who obtains a copy
-# of this software and associated documentation files (the "Software"), to deal with
+# of this software and associated documentation files (the "Software"), to handle
 # in the Software without restriction, including without limitation the rights
-# to use, copy, modify, merge, publish, distribute, sublicense and / or sell
-# copies of the Software, and to allow the persons to whom the Software is
+# use, copy, modify, merge, publish, distribute, sublicense and / or sell
+# copies of the Software and allow the persons to whom the Software is
 # provided to do so, subject to the following conditions:
 
 # The above copyright notice and permission notice must be included in all
 # copies or substantial parts of the Software.
 
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-# IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE WARRANTIES OF MERCHANTABILITY,
+# IMPLIED, INCLUDING, BUT NOT LIMITED TO, MERCHANTABILITY GUARANTEES,
 # FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT WILL THE
 # AUTHORS OR COPYRIGHT HOLDERS ARE RESPONSIBLE FOR ANY CLAIM, DAMAGE OR OTHERWISE
-# RESPONSIBILITY, WHETHER IN ACTION OF CONTRACT, CRIME OR OTHERWISE, ARISING FROM,
-# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALS IN THE SOFTWARE. 
-# THE SOFTWARE CREDITS MAY BE EITHER IN COMMENTARY FORM, OR IN THE BANNER OR README.md!
+# LIABILITY, WHETHER IN ACTION OF CONTRACT, CRIME OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR WITH THE USE OR OTHER OFFERS OF THE SOFTWARE.
+# IF THE SOFTWARE IS PUBLISHED ON GITHUB THE CREDITS OF THE SOFTWARE MAY BE IN THE FORM OF COMMENT, BANNER OR README.md!
 
 R='\e[1;31m'
 green='\e[1;32m'
