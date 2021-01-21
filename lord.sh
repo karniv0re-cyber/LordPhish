@@ -5,25 +5,26 @@
 # Telegram: Ch33chOficial
 # Pages by: Tahmid Rayat
 # MIT License
+
 # Copyright (c) 2021 Gr3n0xX
 
-# Permission is hereby granted, free of charge, to any person obtaining a copy
-# of this software and associated documentation files (the "Software"), to deal
+# Permission is granted, free of charge, to anyone who obtains a copy
+# of this software and associated documentation files (the "Software"), to deal with
 # in the Software without restriction, including without limitation the rights
-# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-# copies of the Software, and to permit persons to whom the Software is
-# furnished to do so, subject to the following conditions:
+# to use, copy, modify, merge, publish, distribute, sublicense and / or sell
+# copies of the Software, and to allow the persons to whom the Software is
+# provided to do so, subject to the following conditions:
 
-# The above copyright notice and this permission notice shall be included in all
-# copies or substantial portions of the Software.
+# The above copyright notice and permission notice must be included in all
+# copies or substantial parts of the Software.
 
 # THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-# SOFTWARE.
+# IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT WILL THE
+# AUTHORS OR COPYRIGHT HOLDERS ARE RESPONSIBLE FOR ANY CLAIM, DAMAGE OR OTHERWISE
+# RESPONSIBILITY, WHETHER IN ACTION OF CONTRACT, CRIME OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALS IN THE SOFTWARE. 
+# THE SOFTWARE CREDITS MAY BE EITHER IN COMMENTARY FORM, OR IN THE BANNER OR README.md!
 
 R='\e[1;31m'
 green='\e[1;32m'
