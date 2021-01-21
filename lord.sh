@@ -4,7 +4,7 @@
 # Lordphish the best phishing tool!!!!
 # Telegram: Ch33chOficial
 # Pages by: Tahmid Rayat
-#MIT License
+# MIT License
 # Copyright (c) 2021 Gr3n0xX
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
