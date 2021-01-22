@@ -15,13 +15,20 @@ And I'm create the most complete phishing tool
 
 ### Usage:
 ```
-pkg update 
-pkg install php 
-pkg install openssh
-pkg install wget
-pkg install git -y
+apt-get update -y
+
+apt-get install php -y
+
+apt-get install openssh -y 
+
+apt-get install wget -y
+
+apt-get install git -y
+
 git clone https://github.com/Ch33chOficial/LordPhish.git
+
 cd LordPhish
+
 bash lord.sh
 ```
 
