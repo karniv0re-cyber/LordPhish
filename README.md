@@ -34,7 +34,7 @@ cd LordPhish
 bash lord.sh
 ```
 
-
+(https://img.shields.io/badge/TELEGRAM-GROUP-red?style=for-the-badge&logo=telegram)](t.me/Gr3n0xX)
 
 
 
