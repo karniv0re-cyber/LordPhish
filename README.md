@@ -10,7 +10,7 @@ And I'm create the most complete phishing tool
 <img src="https://img.shields.io/badge/Author-Ch33chOficial-blue">
 <img src="https://img.shields.io/badge/County-Brasil-red">
 <img src="https://img.shields.io/badge/flowers-53-green">
-<img src="https://img.shields.io/badge/Stars-41-blue">
+<img src="https://img.shields.io/badge/Stars-42-blue">
 <img src="https://img.shields.io/badge/Forks-6-red">
 
 ### Usage:
