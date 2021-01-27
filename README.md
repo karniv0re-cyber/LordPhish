@@ -9,7 +9,7 @@ And I'm create the most complete phishing tool
 <img src="https://raw.githubusercontent.com/Ch33chOficial/LordPhish/main/img/20210113_193403_0000.png">
 <img src="https://img.shields.io/badge/Author-Ch33chOficial-blue">
 <img src="https://img.shields.io/badge/County-Brasil-red">
-<img src="https://img.shields.io/badge/Folowers-52-green">
+<img src="https://img.shields.io/badge/Followers-52-green">
 <img src="https://img.shields.io/badge/Stars-67-blue">
 <img src="https://img.shields.io/badge/Forks-9-red">
 
